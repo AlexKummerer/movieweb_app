@@ -1,16 +1,17 @@
 # models/sqlite_data_manager.py
 
 from flask_sqlalchemy import SQLAlchemy
-from models.data_manager_interface import DataManagerInterface
+from models.data_management_interface import DataManagerInterface
 from models.db_models import db, User, Movie
 
 
 class SQLiteDataManager(DataManagerInterface):
     """Concrete class implementing the DataManagerInterface for SQLite."""
 
-    def __init__(self, db_file_name):
+    def __init__(self, app):
         """Initialize the SQLite database connection."""
-        self.db = SQLAlchemy(db_file_name)
+        with app.app_context():
+            db.create_all()
 
     def get_all_users(self):
         """Retrieve all users from the SQLite database."""

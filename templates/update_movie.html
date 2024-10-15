@@ -1,0 +1,53 @@
+<!-- templates/update_movie.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Update Movie - MovieWeb App</title>
+  </head>
+  <body>
+    <h1>Update Movie</h1>
+    <form method="POST">
+      <label for="name">Movie Name:</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        value="{{ movie.name }}"
+        required
+      />
+
+      <label for="director">Director:</label>
+      <input
+        type="text"
+        name="director"
+        id="director"
+        value="{{ movie.director }}"
+        required
+      />
+
+      <label for="year">Year:</label>
+      <input
+        type="number"
+        name="year"
+        id="year"
+        value="{{ movie.year }}"
+        required
+      />
+
+      <label for="rating">Rating:</label>
+      <input
+        type="number"
+        step="0.1"
+        name="rating"
+        id="rating"
+        value="{{ movie.rating }}"
+        required
+      />
+
+      <button type="submit">Update Movie</button>
+    </form>
+  </body>
+</html>
