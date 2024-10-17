@@ -1,0 +1,1027 @@
+2024-10-16 16:05:47,827 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 16:05:47,827 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 16:05:51,341 - INFO - 127.0.0.1 - - [16/Oct/2024 16:05:51] "GET / HTTP/1.1" 200 -
+2024-10-16 16:05:54,236 - INFO - Retrieved 2 users.
+2024-10-16 16:05:54,243 - INFO - 127.0.0.1 - - [16/Oct/2024 16:05:54] "GET /users HTTP/1.1" 200 -
+2024-10-16 16:06:32,316 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 16:06:32,316 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 16:06:34,869 - INFO - Retrieved 2 users.
+2024-10-16 16:06:34,874 - INFO - 127.0.0.1 - - [16/Oct/2024 16:06:34] "GET /users HTTP/1.1" 200 -
+2024-10-16 16:06:35,969 - INFO - Retrieved 2 users.
+2024-10-16 16:06:36,102 - INFO - 127.0.0.1 - - [16/Oct/2024 16:06:36] "GET /users HTTP/1.1" 200 -
+2024-10-16 16:06:38,511 - INFO - Fetching movies for user ID 1.
+2024-10-16 16:06:38,579 - WARNING - No movies found for user ID 1.
+2024-10-16 16:06:39,326 - INFO - 127.0.0.1 - - [16/Oct/2024 16:06:39] "[33mGET /user/1 HTTP/1.1[0m" 404 -
+2024-10-16 16:07:20,960 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 16:07:20,960 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 16:07:24,005 - INFO - 127.0.0.1 - - [16/Oct/2024 16:07:24] "GET / HTTP/1.1" 200 -
+2024-10-16 16:07:25,727 - INFO - Retrieved 2 users.
+2024-10-16 16:07:25,737 - INFO - 127.0.0.1 - - [16/Oct/2024 16:07:25] "GET /users HTTP/1.1" 200 -
+2024-10-16 16:07:28,237 - INFO - Fetching movies for user ID 2.
+2024-10-16 16:07:28,518 - WARNING - No movies found for user ID 2.
+2024-10-16 16:07:29,231 - INFO - 127.0.0.1 - - [16/Oct/2024 16:07:29] "[33mGET /user/2 HTTP/1.1[0m" 404 -
+2024-10-16 16:30:18,247 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 16:30:18,248 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 16:30:18,248 - INFO -  * Restarting with stat
+2024-10-16 16:30:18,449 - WARNING -  * Debugger is active!
+2024-10-16 16:30:18,456 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 16:30:41,486 - INFO - Fetching movies for user ID 1.
+2024-10-16 16:30:42,628 - INFO - Fetching movies for user ID 1.
+2024-10-16 16:30:42,746 - WARNING - No movies found for user ID 1.
+2024-10-16 16:30:44,188 - INFO - Fetching movies for user ID 1.
+2024-10-16 16:30:44,248 - WARNING - No movies found for user ID 1.
+2024-10-16 16:30:44,264 - INFO - 127.0.0.1 - - [16/Oct/2024 16:30:44] "[33mGET /user/1 HTTP/1.1[0m" 404 -
+2024-10-16 16:30:44,264 - INFO - 127.0.0.1 - - [16/Oct/2024 16:30:44] "[33mGET /user/1 HTTP/1.1[0m" 404 -
+2024-10-16 16:30:44,278 - WARNING - No movies found for user ID 1.
+2024-10-16 16:30:44,278 - INFO - 127.0.0.1 - - [16/Oct/2024 16:30:44] "[33mGET /user/1 HTTP/1.1[0m" 404 -
+2024-10-16 16:32:17,494 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 16:32:17,786 - INFO -  * Restarting with stat
+2024-10-16 16:32:18,173 - WARNING -  * Debugger is active!
+2024-10-16 16:32:18,178 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 16:32:21,275 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 16:32:21,347 - INFO -  * Restarting with stat
+2024-10-16 16:32:21,561 - WARNING -  * Debugger is active!
+2024-10-16 16:32:21,565 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 16:32:25,928 - INFO - Fetching movies for user ID 1.
+2024-10-16 16:32:25,934 - WARNING - No movies found for user ID 1.
+2024-10-16 16:32:25,946 - ERROR - Error fetching movies for user ID 1: 'user_id' is undefined
+2024-10-16 16:32:25,949 - INFO - 127.0.0.1 - - [16/Oct/2024 16:32:25] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2024-10-16 16:32:30,296 - INFO - Fetching movies for user ID 1.
+2024-10-16 16:32:30,931 - WARNING - No movies found for user ID 1.
+2024-10-16 16:32:31,750 - ERROR - Error fetching movies for user ID 1: 'user_id' is undefined
+2024-10-16 16:32:32,558 - INFO - 127.0.0.1 - - [16/Oct/2024 16:32:32] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2024-10-16 16:32:41,892 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 16:32:41,894 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 16:32:41,899 - INFO -  * Restarting with stat
+2024-10-16 16:32:44,237 - WARNING -  * Debugger is active!
+2024-10-16 16:32:44,263 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 16:32:44,328 - INFO - Retrieved 0 users.
+2024-10-16 16:32:44,329 - INFO - Retrieved 0 users.
+2024-10-16 16:32:44,334 - INFO - 127.0.0.1 - - [16/Oct/2024 16:32:44] "GET /users HTTP/1.1" 200 -
+2024-10-16 16:32:44,335 - INFO - 127.0.0.1 - - [16/Oct/2024 16:32:44] "GET /users HTTP/1.1" 200 -
+2024-10-16 16:32:51,375 - INFO - Retrieved 0 users.
+2024-10-16 16:32:51,382 - INFO - 127.0.0.1 - - [16/Oct/2024 16:32:51] "GET /users HTTP/1.1" 200 -
+2024-10-16 16:32:56,855 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 16:32:57,264 - INFO -  * Restarting with stat
+2024-10-16 16:32:58,399 - WARNING -  * Debugger is active!
+2024-10-16 16:32:58,409 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 16:32:59,447 - INFO - Handling add_user request.
+2024-10-16 16:32:59,453 - INFO - 127.0.0.1 - - [16/Oct/2024 16:32:59] "GET /add_user HTTP/1.1" 200 -
+2024-10-16 16:33:02,896 - INFO - Handling add_user request.
+2024-10-16 16:33:02,929 - INFO - User 'Kummey' added successfully.
+2024-10-16 16:33:02,929 - INFO - 127.0.0.1 - - [16/Oct/2024 16:33:02] "[32mPOST /add_user HTTP/1.1[0m" 302 -
+2024-10-16 16:33:02,953 - INFO - Retrieved 1 users.
+2024-10-16 16:33:02,958 - INFO - 127.0.0.1 - - [16/Oct/2024 16:33:02] "GET /users HTTP/1.1" 200 -
+2024-10-16 16:33:04,894 - INFO - Fetching movies for user ID 1.
+2024-10-16 16:33:04,917 - WARNING - No movies found for user ID 1.
+2024-10-16 16:33:04,921 - ERROR - Error fetching movies for user ID 1: 'user_id' is undefined
+2024-10-16 16:33:04,924 - INFO - 127.0.0.1 - - [16/Oct/2024 16:33:04] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2024-10-16 16:33:13,223 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 16:33:13,715 - INFO -  * Restarting with stat
+2024-10-16 16:33:15,366 - WARNING -  * Debugger is active!
+2024-10-16 16:33:15,408 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 16:33:38,246 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 16:33:38,342 - INFO -  * Restarting with stat
+2024-10-16 16:33:38,719 - WARNING -  * Debugger is active!
+2024-10-16 16:33:38,724 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 16:33:41,254 - INFO - Fetching movies for user ID 1.
+2024-10-16 16:33:41,263 - WARNING - No movies found for user ID 1.
+2024-10-16 16:33:41,271 - ERROR - Error fetching movies for user ID 1: 'user_id' is undefined
+2024-10-16 16:33:41,274 - INFO - 127.0.0.1 - - [16/Oct/2024 16:33:41] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2024-10-16 16:33:42,917 - INFO - Fetching movies for user ID 1.
+2024-10-16 16:33:42,923 - WARNING - No movies found for user ID 1.
+2024-10-16 16:33:42,924 - ERROR - Error fetching movies for user ID 1: 'user_id' is undefined
+2024-10-16 16:33:42,924 - INFO - 127.0.0.1 - - [16/Oct/2024 16:33:42] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2024-10-16 16:34:00,994 - INFO - Retrieved 1 users.
+2024-10-16 16:34:01,072 - INFO - 127.0.0.1 - - [16/Oct/2024 16:34:01] "GET /users HTTP/1.1" 200 -
+2024-10-16 16:34:04,853 - INFO - Fetching movies for user ID 1.
+2024-10-16 16:34:04,874 - WARNING - No movies found for user ID 1.
+2024-10-16 16:34:04,879 - ERROR - Error fetching movies for user ID 1: 'user_id' is undefined
+2024-10-16 16:34:04,880 - INFO - 127.0.0.1 - - [16/Oct/2024 16:34:04] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2024-10-16 16:34:07,276 - INFO - 127.0.0.1 - - [16/Oct/2024 16:34:07] "GET / HTTP/1.1" 200 -
+2024-10-16 16:34:08,246 - INFO - Retrieved 1 users.
+2024-10-16 16:34:08,247 - INFO - 127.0.0.1 - - [16/Oct/2024 16:34:08] "GET /users HTTP/1.1" 200 -
+2024-10-16 16:34:09,213 - INFO - Fetching movies for user ID 1.
+2024-10-16 16:34:09,219 - WARNING - No movies found for user ID 1.
+2024-10-16 16:34:09,229 - ERROR - Error fetching movies for user ID 1: 'user_id' is undefined
+2024-10-16 16:34:09,238 - INFO - 127.0.0.1 - - [16/Oct/2024 16:34:09] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2024-10-16 16:34:43,472 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 16:34:43,712 - INFO -  * Restarting with stat
+2024-10-16 16:34:44,183 - WARNING -  * Debugger is active!
+2024-10-16 16:34:44,188 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 16:36:47,967 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 16:36:48,148 - INFO -  * Restarting with stat
+2024-10-16 16:37:38,872 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 16:37:38,872 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 16:37:38,873 - INFO -  * Restarting with stat
+2024-10-16 16:37:39,356 - WARNING -  * Debugger is active!
+2024-10-16 16:37:39,367 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 16:37:41,509 - INFO - Retrieved 1 users.
+2024-10-16 16:37:41,521 - INFO - 127.0.0.1 - - [16/Oct/2024 16:37:41] "GET /users HTTP/1.1" 200 -
+2024-10-16 16:37:45,132 - INFO - 127.0.0.1 - - [16/Oct/2024 16:37:45] "GET / HTTP/1.1" 200 -
+2024-10-16 16:37:48,102 - INFO - Retrieved 1 users.
+2024-10-16 16:37:48,107 - INFO - 127.0.0.1 - - [16/Oct/2024 16:37:48] "GET /users HTTP/1.1" 200 -
+2024-10-16 16:37:50,564 - INFO - Fetching movies for user ID 1.
+2024-10-16 16:37:51,069 - INFO - Fetching movies for user with ID 1.
+2024-10-16 16:37:51,435 - INFO - Found user: Kummey with 0 movies.
+2024-10-16 16:37:51,435 - WARNING - No movies found for user ID 1.
+2024-10-16 16:37:51,456 - ERROR - Error fetching movies for user ID 1: 'user_id' is undefined
+2024-10-16 16:37:51,467 - INFO - 127.0.0.1 - - [16/Oct/2024 16:37:51] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2024-10-16 16:38:01,319 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 16:38:01,946 - INFO -  * Restarting with stat
+2024-10-16 16:38:07,075 - WARNING -  * Debugger is active!
+2024-10-16 16:38:07,853 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 16:38:22,187 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/db_models.py', reloading
+2024-10-16 16:38:22,308 - INFO -  * Restarting with stat
+2024-10-16 16:38:22,688 - WARNING -  * Debugger is active!
+2024-10-16 16:38:22,697 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:04:53,637 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 17:04:54,112 - INFO -  * Restarting with stat
+2024-10-16 17:04:55,220 - WARNING -  * Debugger is active!
+2024-10-16 17:04:55,234 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:05:11,681 - INFO - 127.0.0.1 - - [16/Oct/2024 17:05:11] "GET / HTTP/1.1" 200 -
+2024-10-16 17:05:13,287 - INFO - Retrieved 1 users.
+2024-10-16 17:05:13,290 - INFO - 127.0.0.1 - - [16/Oct/2024 17:05:13] "GET /users HTTP/1.1" 200 -
+2024-10-16 17:05:14,405 - INFO - Fetching movies for user ID 1.
+2024-10-16 17:05:14,406 - ERROR - Error fetching movies for user ID 1: scoped_session.get() got an unexpected keyword argument 'id'
+2024-10-16 17:05:14,406 - WARNING - No movies found for user ID 1.
+2024-10-16 17:05:14,414 - ERROR - Error fetching movies for user ID 1: 'user_id' is undefined
+2024-10-16 17:05:14,416 - INFO - 127.0.0.1 - - [16/Oct/2024 17:05:14] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2024-10-16 17:05:28,584 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 17:05:28,692 - INFO -  * Restarting with stat
+2024-10-16 17:05:29,515 - WARNING -  * Debugger is active!
+2024-10-16 17:05:29,532 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:05:38,850 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 17:05:38,918 - INFO -  * Restarting with stat
+2024-10-16 17:05:39,228 - WARNING -  * Debugger is active!
+2024-10-16 17:05:39,235 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:06:28,774 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 17:06:28,851 - INFO -  * Restarting with stat
+2024-10-16 17:06:29,285 - WARNING -  * Debugger is active!
+2024-10-16 17:06:29,289 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:06:30,348 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 17:06:30,395 - INFO -  * Restarting with stat
+2024-10-16 17:06:30,594 - WARNING -  * Debugger is active!
+2024-10-16 17:06:30,598 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:06:34,179 - INFO - 127.0.0.1 - - [16/Oct/2024 17:06:34] "GET / HTTP/1.1" 200 -
+2024-10-16 17:06:35,265 - INFO - Retrieved 1 users.
+2024-10-16 17:06:35,272 - INFO - 127.0.0.1 - - [16/Oct/2024 17:06:35] "GET /users HTTP/1.1" 200 -
+2024-10-16 17:06:36,323 - INFO - Fetching movies for user ID 1.
+2024-10-16 17:06:36,335 - INFO - Fetching movies for user with ID 1.
+2024-10-16 17:06:36,353 - INFO - Found user: Kummey with 0 movies.
+2024-10-16 17:06:36,353 - WARNING - No movies found for user ID 1.
+2024-10-16 17:06:36,362 - ERROR - Error fetching movies for user ID 1: 'user_id' is undefined
+2024-10-16 17:06:36,365 - INFO - 127.0.0.1 - - [16/Oct/2024 17:06:36] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2024-10-16 17:07:16,254 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 17:07:16,508 - INFO -  * Restarting with stat
+2024-10-16 17:07:17,179 - WARNING -  * Debugger is active!
+2024-10-16 17:07:17,199 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:07:24,729 - INFO - 127.0.0.1 - - [16/Oct/2024 17:07:24] "GET / HTTP/1.1" 200 -
+2024-10-16 17:07:26,085 - INFO - Retrieved 1 users.
+2024-10-16 17:07:26,095 - INFO - 127.0.0.1 - - [16/Oct/2024 17:07:26] "GET /users HTTP/1.1" 200 -
+2024-10-16 17:07:27,466 - INFO - Fetching movies for user ID 1.
+2024-10-16 17:07:27,472 - INFO - Fetching movies for user with ID 1.
+2024-10-16 17:07:27,477 - WARNING - User with ID 1 not found.
+2024-10-16 17:07:27,477 - WARNING - No movies found for user ID 1.
+2024-10-16 17:07:27,486 - ERROR - Error fetching movies for user ID 1: 'user_id' is undefined
+2024-10-16 17:07:27,489 - INFO - 127.0.0.1 - - [16/Oct/2024 17:07:27] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2024-10-16 17:07:33,447 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 17:07:33,447 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 17:07:33,449 - INFO -  * Restarting with stat
+2024-10-16 17:07:33,694 - WARNING -  * Debugger is active!
+2024-10-16 17:07:33,700 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:07:34,885 - INFO - 127.0.0.1 - - [16/Oct/2024 17:07:34] "GET / HTTP/1.1" 200 -
+2024-10-16 17:07:36,130 - INFO - Retrieved 1 users.
+2024-10-16 17:07:36,147 - INFO - 127.0.0.1 - - [16/Oct/2024 17:07:36] "GET /users HTTP/1.1" 200 -
+2024-10-16 17:07:36,939 - INFO - Fetching movies for user ID 1.
+2024-10-16 17:07:36,956 - INFO - Fetching movies for user with ID 1.
+2024-10-16 17:07:36,958 - WARNING - User with ID 1 not found.
+2024-10-16 17:07:36,958 - WARNING - No movies found for user ID 1.
+2024-10-16 17:07:36,972 - ERROR - Error fetching movies for user ID 1: 'user_id' is undefined
+2024-10-16 17:07:36,975 - INFO - 127.0.0.1 - - [16/Oct/2024 17:07:36] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2024-10-16 17:09:04,769 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 17:09:05,143 - INFO -  * Restarting with stat
+2024-10-16 17:09:06,926 - WARNING -  * Debugger is active!
+2024-10-16 17:09:06,945 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:09:18,311 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 17:09:18,379 - INFO -  * Restarting with stat
+2024-10-16 17:09:18,685 - WARNING -  * Debugger is active!
+2024-10-16 17:09:18,691 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:09:32,186 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 17:09:32,243 - INFO -  * Restarting with stat
+2024-10-16 17:09:32,666 - WARNING -  * Debugger is active!
+2024-10-16 17:09:32,671 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:09:40,652 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 17:09:40,653 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 17:09:40,653 - INFO -  * Restarting with stat
+2024-10-16 17:09:40,856 - WARNING -  * Debugger is active!
+2024-10-16 17:09:40,861 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:09:43,058 - INFO - 127.0.0.1 - - [16/Oct/2024 17:09:43] "GET / HTTP/1.1" 200 -
+2024-10-16 17:09:44,039 - INFO - 127.0.0.1 - - [16/Oct/2024 17:09:44] "GET / HTTP/1.1" 200 -
+2024-10-16 17:09:45,454 - INFO - Retrieved 1 users.
+2024-10-16 17:09:45,459 - INFO - 127.0.0.1 - - [16/Oct/2024 17:09:45] "GET /users HTTP/1.1" 200 -
+2024-10-16 17:09:46,612 - INFO - Fetching movies for user ID 1.
+2024-10-16 17:09:47,080 - INFO - Fetching movies for user with ID 1.
+2024-10-16 17:09:47,091 - WARNING - User with ID 1 not found.
+2024-10-16 17:09:47,092 - WARNING - No movies found for user ID 1.
+2024-10-16 17:09:47,100 - ERROR - Error fetching movies for user ID 1: 'user_id' is undefined
+2024-10-16 17:09:47,548 - INFO - 127.0.0.1 - - [16/Oct/2024 17:09:47] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2024-10-16 17:10:14,267 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 17:10:15,024 - INFO -  * Restarting with stat
+2024-10-16 17:10:15,949 - WARNING -  * Debugger is active!
+2024-10-16 17:10:15,959 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:10:17,915 - INFO - 127.0.0.1 - - [16/Oct/2024 17:10:17] "GET / HTTP/1.1" 200 -
+2024-10-16 17:10:19,410 - INFO - Retrieved 1 users.
+2024-10-16 17:10:19,418 - INFO - 127.0.0.1 - - [16/Oct/2024 17:10:19] "GET /users HTTP/1.1" 200 -
+2024-10-16 17:10:21,300 - INFO - Fetching movies for user ID 1.
+2024-10-16 17:10:22,115 - INFO - Fetching movies for user with ID 1.
+2024-10-16 17:10:22,118 - WARNING - User with ID 1 not found.
+2024-10-16 17:10:22,118 - WARNING - No movies found for user ID 1.
+2024-10-16 17:10:22,131 - ERROR - Error fetching movies for user ID 1: 'user_id' is undefined
+2024-10-16 17:10:22,135 - INFO - 127.0.0.1 - - [16/Oct/2024 17:10:22] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2024-10-16 17:12:23,872 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 17:12:25,479 - INFO -  * Restarting with stat
+2024-10-16 17:13:32,803 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 17:13:32,804 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 17:13:32,804 - INFO -  * Restarting with stat
+2024-10-16 17:13:32,997 - WARNING -  * Debugger is active!
+2024-10-16 17:13:33,004 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:13:35,572 - INFO - 127.0.0.1 - - [16/Oct/2024 17:13:35] "GET / HTTP/1.1" 200 -
+2024-10-16 17:13:50,183 - INFO - Retrieved 1 users.
+2024-10-16 17:13:50,987 - INFO - 127.0.0.1 - - [16/Oct/2024 17:13:50] "GET /users HTTP/1.1" 200 -
+2024-10-16 17:13:53,981 - INFO - Retrieved 1 users.
+2024-10-16 17:13:54,672 - INFO - 127.0.0.1 - - [16/Oct/2024 17:13:54] "GET /users HTTP/1.1" 200 -
+2024-10-16 17:13:54,806 - INFO - Retrieved 1 users.
+2024-10-16 17:13:54,807 - INFO - 127.0.0.1 - - [16/Oct/2024 17:13:54] "GET /users HTTP/1.1" 200 -
+2024-10-16 17:13:55,179 - INFO - Retrieved 1 users.
+2024-10-16 17:13:55,806 - INFO - 127.0.0.1 - - [16/Oct/2024 17:13:55] "GET /users HTTP/1.1" 200 -
+2024-10-16 17:13:55,853 - INFO - Retrieved 1 users.
+2024-10-16 17:13:55,853 - INFO - 127.0.0.1 - - [16/Oct/2024 17:13:55] "GET /users HTTP/1.1" 200 -
+2024-10-16 17:13:58,507 - INFO - Fetching movies for user ID 1.
+2024-10-16 17:13:59,500 - INFO - Fetching movies for user ID 1.
+2024-10-16 17:13:59,616 - INFO - Fetching movies for user with ID 1.
+2024-10-16 17:13:59,623 - INFO - Fetching movies for user with ID 1.
+2024-10-16 17:13:59,632 - INFO - User Kummey has no movies.
+2024-10-16 17:13:59,632 - WARNING - No movies found for user ID 1.
+2024-10-16 17:13:59,632 - INFO - User Kummey has no movies.
+2024-10-16 17:13:59,633 - WARNING - No movies found for user ID 1.
+2024-10-16 17:13:59,660 - ERROR - Error fetching movies for user ID 1: 'user_id' is undefined
+2024-10-16 17:13:59,660 - ERROR - Error fetching movies for user ID 1: 'user_id' is undefined
+2024-10-16 17:13:59,667 - INFO - 127.0.0.1 - - [16/Oct/2024 17:13:59] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2024-10-16 17:13:59,668 - INFO - 127.0.0.1 - - [16/Oct/2024 17:13:59] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2024-10-16 17:17:06,976 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 17:17:07,428 - INFO -  * Restarting with stat
+2024-10-16 17:17:09,113 - WARNING -  * Debugger is active!
+2024-10-16 17:17:09,122 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:17:13,420 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 17:17:13,485 - INFO -  * Restarting with stat
+2024-10-16 17:17:14,283 - WARNING -  * Debugger is active!
+2024-10-16 17:17:14,289 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:17:17,186 - INFO - 127.0.0.1 - - [16/Oct/2024 17:17:17] "GET / HTTP/1.1" 200 -
+2024-10-16 17:17:17,256 - INFO - 127.0.0.1 - - [16/Oct/2024 17:17:17] "GET / HTTP/1.1" 200 -
+2024-10-16 17:17:19,721 - INFO - Retrieved 1 users.
+2024-10-16 17:17:19,996 - INFO - 127.0.0.1 - - [16/Oct/2024 17:17:19] "GET /users HTTP/1.1" 200 -
+2024-10-16 17:17:21,428 - INFO - Fetching movies for user ID 1.
+2024-10-16 17:17:21,701 - INFO - Fetching movies for user with ID 1.
+2024-10-16 17:17:22,706 - INFO - User Kummey has no movies.
+2024-10-16 17:17:22,710 - WARNING - No movies found for user ID 1.
+2024-10-16 17:17:22,732 - ERROR - Error fetching movies for user ID 1: 'user_id' is undefined
+2024-10-16 17:17:23,440 - INFO - 127.0.0.1 - - [16/Oct/2024 17:17:23] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2024-10-16 17:18:05,540 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 17:18:05,758 - INFO -  * Restarting with stat
+2024-10-16 17:18:06,209 - WARNING -  * Debugger is active!
+2024-10-16 17:18:06,219 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:18:10,254 - INFO - 127.0.0.1 - - [16/Oct/2024 17:18:10] "GET / HTTP/1.1" 200 -
+2024-10-16 17:18:12,367 - INFO - Retrieved 1 users.
+2024-10-16 17:18:12,370 - INFO - 127.0.0.1 - - [16/Oct/2024 17:18:12] "GET /users HTTP/1.1" 200 -
+2024-10-16 17:18:15,615 - INFO - Fetching movies for user ID 1.
+2024-10-16 17:18:16,497 - INFO - Fetching movies for user with ID 1.
+2024-10-16 17:18:16,503 - ERROR - Error fetching movies for user ID 1: 'dict' object has no attribute 'movies'
+2024-10-16 17:18:16,503 - WARNING - No movies found for user ID 1.
+2024-10-16 17:18:16,515 - ERROR - Error fetching movies for user ID 1: 'user_id' is undefined
+2024-10-16 17:18:16,519 - INFO - 127.0.0.1 - - [16/Oct/2024 17:18:16] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2024-10-16 17:18:33,335 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 17:18:33,513 - INFO -  * Restarting with stat
+2024-10-16 17:18:34,231 - WARNING -  * Debugger is active!
+2024-10-16 17:18:34,240 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:19:11,232 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 17:19:12,041 - INFO -  * Restarting with stat
+2024-10-16 17:19:13,856 - WARNING -  * Debugger is active!
+2024-10-16 17:19:13,880 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:19:26,485 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 17:19:26,599 - INFO -  * Restarting with stat
+2024-10-16 17:19:39,090 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 17:19:39,090 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 17:19:39,091 - INFO -  * Restarting with stat
+2024-10-16 17:19:39,293 - WARNING -  * Debugger is active!
+2024-10-16 17:19:39,298 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:19:42,700 - INFO - 127.0.0.1 - - [16/Oct/2024 17:19:42] "GET / HTTP/1.1" 200 -
+2024-10-16 17:19:45,139 - INFO - Retrieved 1 users.
+2024-10-16 17:19:45,155 - INFO - 127.0.0.1 - - [16/Oct/2024 17:19:45] "GET /users HTTP/1.1" 200 -
+2024-10-16 17:19:50,311 - INFO - Fetching movies for user ID 1.
+2024-10-16 17:19:51,225 - INFO - Fetching movies for user with ID 1.
+2024-10-16 17:19:52,091 - INFO - User Kummey has no movies.
+2024-10-16 17:19:52,091 - WARNING - No movies found for user ID 1.
+2024-10-16 17:19:52,117 - ERROR - Error fetching movies for user ID 1: 'user_id' is undefined
+2024-10-16 17:19:52,164 - INFO - 127.0.0.1 - - [16/Oct/2024 17:19:52] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2024-10-16 17:19:52,389 - INFO - 127.0.0.1 - - [16/Oct/2024 17:19:52] "GET /user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-10-16 17:19:52,409 - INFO - 127.0.0.1 - - [16/Oct/2024 17:19:52] "GET /user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-10-16 17:19:55,596 - INFO - 127.0.0.1 - - [16/Oct/2024 17:19:55] "GET /user/1?__debugger__=yes&cmd=resource&f=console.png&s=OWUfrF8b4hOLrXq2DZcE HTTP/1.1" 200 -
+2024-10-16 17:19:55,605 - INFO - 127.0.0.1 - - [16/Oct/2024 17:19:55] "GET /user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-10-16 17:19:56,413 - INFO - 127.0.0.1 - - [16/Oct/2024 17:19:56] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 17:21:18,726 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 17:21:18,993 - INFO -  * Restarting with stat
+2024-10-16 17:21:19,622 - WARNING -  * Debugger is active!
+2024-10-16 17:21:19,631 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:21:22,752 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 17:21:22,814 - INFO -  * Restarting with stat
+2024-10-16 17:21:23,119 - WARNING -  * Debugger is active!
+2024-10-16 17:21:23,124 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:21:29,203 - INFO - Fetching movies for user ID 1.
+2024-10-16 17:21:29,745 - INFO - Fetching movies for user with ID 1.
+2024-10-16 17:21:30,298 - INFO - User Kummey has no movies.
+2024-10-16 17:21:30,299 - WARNING - No movies found for user ID 1.
+2024-10-16 17:21:30,315 - ERROR - Error fetching movies for user ID 1: 'NoneType' object is not iterable
+2024-10-16 17:21:30,434 - INFO - 127.0.0.1 - - [16/Oct/2024 17:21:30] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2024-10-16 17:21:38,619 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 17:21:38,756 - INFO -  * Restarting with stat
+2024-10-16 17:21:39,220 - WARNING -  * Debugger is active!
+2024-10-16 17:21:39,230 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:21:41,745 - INFO - Fetching movies for user ID 1.
+2024-10-16 17:21:41,798 - INFO - Fetching movies for user with ID 1.
+2024-10-16 17:21:41,803 - INFO - User Kummey has no movies.
+2024-10-16 17:21:41,803 - WARNING - No movies found for user ID 1.
+2024-10-16 17:21:41,815 - ERROR - Error fetching movies for user ID 1: 'user_id' is undefined
+2024-10-16 17:21:41,842 - INFO - 127.0.0.1 - - [16/Oct/2024 17:21:41] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2024-10-16 17:21:42,135 - INFO - 127.0.0.1 - - [16/Oct/2024 17:21:42] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-16 17:21:42,168 - INFO - 127.0.0.1 - - [16/Oct/2024 17:21:42] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-16 17:21:43,243 - INFO - Fetching movies for user ID 1.
+2024-10-16 17:21:43,530 - INFO - Fetching movies for user with ID 1.
+2024-10-16 17:21:44,161 - INFO - User Kummey has no movies.
+2024-10-16 17:21:44,161 - WARNING - No movies found for user ID 1.
+2024-10-16 17:21:44,163 - ERROR - Error fetching movies for user ID 1: 'user_id' is undefined
+2024-10-16 17:21:44,196 - INFO - 127.0.0.1 - - [16/Oct/2024 17:21:44] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2024-10-16 17:21:44,372 - INFO - 127.0.0.1 - - [16/Oct/2024 17:21:44] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-16 17:21:44,373 - INFO - 127.0.0.1 - - [16/Oct/2024 17:21:44] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-16 17:21:44,725 - INFO - 127.0.0.1 - - [16/Oct/2024 17:21:44] "GET /user/1?__debugger__=yes&cmd=resource&f=console.png&s=wbW6WvDuhOLuTnwFxNOf HTTP/1.1" 200 -
+2024-10-16 17:21:44,751 - INFO - 127.0.0.1 - - [16/Oct/2024 17:21:44] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 17:21:44,964 - INFO - 127.0.0.1 - - [16/Oct/2024 17:21:44] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 17:22:59,246 - INFO - Fetching movies for user ID 1.
+2024-10-16 17:22:59,289 - INFO - Fetching movies for user with ID 1.
+2024-10-16 17:22:59,290 - INFO - User Kummey has no movies.
+2024-10-16 17:22:59,290 - WARNING - No movies found for user ID 1.
+2024-10-16 17:22:59,301 - ERROR - Error fetching movies for user ID 1: 'user_id' is undefined
+2024-10-16 17:22:59,332 - INFO - 127.0.0.1 - - [16/Oct/2024 17:22:59] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2024-10-16 17:22:59,474 - INFO - 127.0.0.1 - - [16/Oct/2024 17:22:59] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-16 17:22:59,527 - INFO - 127.0.0.1 - - [16/Oct/2024 17:22:59] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-16 17:22:59,652 - INFO - 127.0.0.1 - - [16/Oct/2024 17:22:59] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=console.png&s=wbW6WvDuhOLuTnwFxNOf HTTP/1.1[0m" 304 -
+2024-10-16 17:22:59,691 - INFO - 127.0.0.1 - - [16/Oct/2024 17:22:59] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 17:23:00,405 - INFO - 127.0.0.1 - - [16/Oct/2024 17:23:00] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 17:23:16,115 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 17:23:19,120 - INFO -  * Restarting with stat
+2024-10-16 17:23:21,776 - WARNING -  * Debugger is active!
+2024-10-16 17:23:21,789 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:23:21,858 - INFO - Fetching movies for user ID 1.
+2024-10-16 17:23:21,863 - INFO - Fetching movies for user with ID 1.
+2024-10-16 17:23:21,865 - INFO - User Kummey has no movies.
+2024-10-16 17:23:21,865 - WARNING - No movies found for user ID 1.
+2024-10-16 17:23:21,874 - ERROR - Error fetching movies for user ID 1: 'user_id' is undefined
+2024-10-16 17:23:21,894 - INFO - 127.0.0.1 - - [16/Oct/2024 17:23:21] "[35m[1mGET /user/1 HTTP/1.1[0m" 500 -
+2024-10-16 17:23:22,360 - INFO - 127.0.0.1 - - [16/Oct/2024 17:23:22] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-16 17:23:22,407 - INFO - 127.0.0.1 - - [16/Oct/2024 17:23:22] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-16 17:23:22,741 - INFO - 127.0.0.1 - - [16/Oct/2024 17:23:22] "GET /user/1?__debugger__=yes&cmd=resource&f=console.png&s=kHbNOYi2n9o9MqlBDsZH HTTP/1.1" 200 -
+2024-10-16 17:23:22,757 - INFO - 127.0.0.1 - - [16/Oct/2024 17:23:22] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 17:23:22,977 - INFO - 127.0.0.1 - - [16/Oct/2024 17:23:22] "[36mGET /user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 17:23:40,877 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 17:23:41,152 - INFO -  * Restarting with stat
+2024-10-16 17:23:41,679 - WARNING -  * Debugger is active!
+2024-10-16 17:23:41,685 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:23:48,964 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 17:23:49,364 - INFO -  * Restarting with stat
+2024-10-16 17:23:50,541 - WARNING -  * Debugger is active!
+2024-10-16 17:23:50,564 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:23:54,789 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/templating.py', reloading
+2024-10-16 17:23:54,852 - INFO -  * Restarting with stat
+2024-10-16 17:23:55,194 - WARNING -  * Debugger is active!
+2024-10-16 17:23:55,204 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:23:59,687 - INFO - Fetching movies for user ID 1.
+2024-10-16 17:23:59,897 - INFO - Fetching movies for user with ID 1.
+2024-10-16 17:23:59,898 - INFO - User Kummey has no movies.
+2024-10-16 17:23:59,898 - WARNING - No movies found for user ID 1.
+2024-10-16 17:23:59,908 - INFO - 127.0.0.1 - - [16/Oct/2024 17:23:59] "GET /user/1 HTTP/1.1" 200 -
+2024-10-16 17:24:00,378 - INFO - Fetching movies for user ID 1.
+2024-10-16 17:24:00,382 - INFO - Fetching movies for user with ID 1.
+2024-10-16 17:24:00,383 - INFO - User Kummey has no movies.
+2024-10-16 17:24:00,383 - WARNING - No movies found for user ID 1.
+2024-10-16 17:24:00,384 - INFO - 127.0.0.1 - - [16/Oct/2024 17:24:00] "GET /user/1 HTTP/1.1" 200 -
+2024-10-16 17:24:35,222 - INFO - Handling add_movie for user ID 1.
+2024-10-16 17:24:36,155 - INFO - 127.0.0.1 - - [16/Oct/2024 17:24:36] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-16 17:24:37,187 - INFO - Handling add_movie for user ID 1.
+2024-10-16 17:24:39,136 - INFO - 127.0.0.1 - - [16/Oct/2024 17:24:39] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-16 17:27:06,087 - INFO - Handling add_movie for user ID 1.
+2024-10-16 17:27:06,123 - INFO - Adding movie with data: Name: Halo, Director: The Phil, Year: 1965, Rating: 5
+2024-10-16 17:27:06,247 - INFO - Movie 'Halo' added successfully for user ID 1.
+2024-10-16 17:27:06,252 - INFO - 127.0.0.1 - - [16/Oct/2024 17:27:06] "[32mPOST /users/1/add_movie HTTP/1.1[0m" 302 -
+2024-10-16 17:27:06,282 - INFO - Fetching movies for user ID 1.
+2024-10-16 17:27:06,283 - INFO - Fetching movies for user with ID 1.
+2024-10-16 17:27:06,284 - INFO - Found user: Kummey with 1 movies.
+2024-10-16 17:27:06,284 - INFO - Found 1 movies for user ID 1.
+2024-10-16 17:27:06,286 - INFO - 127.0.0.1 - - [16/Oct/2024 17:27:06] "GET /user/1 HTTP/1.1" 200 -
+2024-10-16 17:27:38,174 - INFO - 127.0.0.1 - - [16/Oct/2024 17:27:38] "[31m[1mGET /users/1/delete_movie/1 HTTP/1.1[0m" 405 -
+2024-10-16 17:27:44,139 - INFO - 127.0.0.1 - - [16/Oct/2024 17:27:44] "[31m[1mGET /users/1/delete_movie/1 HTTP/1.1[0m" 405 -
+2024-10-16 17:27:46,985 - INFO - Handling update_movie for movie ID 1.
+2024-10-16 17:27:47,165 - ERROR - Error retrieving movie ID 1: (sqlite3.OperationalError) no such table: movies
+[SQL: SELECT movies.id AS movies_id, movies.name AS movies_name, movies.director AS movies_director, movies.year AS movies_year, movies.rating AS movies_rating, movies.user_id AS movies_user_id 
+FROM movies 
+WHERE movies.id = ?]
+[parameters: (1,)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-10-16 17:27:47,219 - INFO - 127.0.0.1 - - [16/Oct/2024 17:27:47] "[35m[1mGET /users/1/update_movie/1 HTTP/1.1[0m" 500 -
+2024-10-16 17:27:48,925 - INFO - 127.0.0.1 - - [16/Oct/2024 17:27:48] "GET / HTTP/1.1" 200 -
+2024-10-16 17:27:50,733 - INFO - 127.0.0.1 - - [16/Oct/2024 17:27:50] "GET / HTTP/1.1" 200 -
+2024-10-16 17:27:53,001 - ERROR - Error retrieving users: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.name AS users_name 
+FROM users]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-10-16 17:27:53,003 - INFO - 127.0.0.1 - - [16/Oct/2024 17:27:53] "[35m[1mGET /users HTTP/1.1[0m" 500 -
+2024-10-16 17:27:54,732 - INFO - 127.0.0.1 - - [16/Oct/2024 17:27:54] "GET / HTTP/1.1" 200 -
+2024-10-16 17:27:55,367 - ERROR - Error retrieving users: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.name AS users_name 
+FROM users]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-10-16 17:27:55,367 - INFO - 127.0.0.1 - - [16/Oct/2024 17:27:55] "[35m[1mGET /users HTTP/1.1[0m" 500 -
+2024-10-16 17:27:56,328 - INFO - 127.0.0.1 - - [16/Oct/2024 17:27:56] "GET / HTTP/1.1" 200 -
+2024-10-16 17:28:02,667 - ERROR - Error retrieving users: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.name AS users_name 
+FROM users]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-10-16 17:28:02,668 - INFO - 127.0.0.1 - - [16/Oct/2024 17:28:02] "[35m[1mGET /users HTTP/1.1[0m" 500 -
+2024-10-16 17:28:26,721 - INFO - 127.0.0.1 - - [16/Oct/2024 17:28:26] "GET / HTTP/1.1" 200 -
+2024-10-16 17:28:27,885 - ERROR - Error retrieving users: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.name AS users_name 
+FROM users]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-10-16 17:28:27,886 - INFO - 127.0.0.1 - - [16/Oct/2024 17:28:27] "[35m[1mGET /users HTTP/1.1[0m" 500 -
+2024-10-16 17:29:18,127 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 17:29:18,127 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 17:29:18,128 - INFO -  * Restarting with stat
+2024-10-16 17:29:18,385 - WARNING -  * Debugger is active!
+2024-10-16 17:29:18,395 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 17:29:31,186 - INFO - 127.0.0.1 - - [16/Oct/2024 17:29:31] "GET / HTTP/1.1" 200 -
+2024-10-16 17:29:31,332 - INFO - 127.0.0.1 - - [16/Oct/2024 17:29:31] "GET / HTTP/1.1" 200 -
+2024-10-16 17:29:41,316 - INFO - Retrieved 0 users.
+2024-10-16 17:29:41,320 - INFO - 127.0.0.1 - - [16/Oct/2024 17:29:41] "GET /users HTTP/1.1" 200 -
+2024-10-16 17:29:44,248 - INFO - Handling add_user request.
+2024-10-16 17:29:44,259 - INFO - 127.0.0.1 - - [16/Oct/2024 17:29:44] "GET /add_user HTTP/1.1" 200 -
+2024-10-16 17:29:49,029 - INFO - Handling add_user request.
+2024-10-16 17:29:49,067 - INFO - User 'kummey' added successfully.
+2024-10-16 17:29:49,068 - INFO - 127.0.0.1 - - [16/Oct/2024 17:29:49] "[32mPOST /add_user HTTP/1.1[0m" 302 -
+2024-10-16 17:29:49,113 - INFO - Retrieved 1 users.
+2024-10-16 17:29:49,116 - INFO - 127.0.0.1 - - [16/Oct/2024 17:29:49] "GET /users HTTP/1.1" 200 -
+2024-10-16 17:30:23,221 - INFO - Fetching movies for user ID 1.
+2024-10-16 17:30:23,414 - INFO - Fetching movies for user with ID 1.
+2024-10-16 17:30:23,426 - INFO - User kummey has no movies.
+2024-10-16 17:30:23,427 - WARNING - No movies found for user ID 1.
+2024-10-16 17:30:23,469 - INFO - 127.0.0.1 - - [16/Oct/2024 17:30:23] "GET /user/1 HTTP/1.1" 200 -
+2024-10-16 17:30:25,371 - INFO - Handling add_movie for user ID 1.
+2024-10-16 17:30:25,378 - INFO - 127.0.0.1 - - [16/Oct/2024 17:30:25] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-16 17:30:34,791 - INFO - Handling add_movie for user ID 1.
+2024-10-16 17:30:34,793 - INFO - Adding movie with data: Name: the halo, Director: hilton, Year: 1984, Rating: 8
+2024-10-16 17:30:34,852 - INFO - Movie 'the halo' added successfully for user ID 1.
+2024-10-16 17:30:34,854 - INFO - 127.0.0.1 - - [16/Oct/2024 17:30:34] "[32mPOST /users/1/add_movie HTTP/1.1[0m" 302 -
+2024-10-16 17:30:34,877 - INFO - Fetching movies for user ID 1.
+2024-10-16 17:30:34,879 - INFO - Fetching movies for user with ID 1.
+2024-10-16 17:30:34,879 - INFO - Found user: kummey with 1 movies.
+2024-10-16 17:30:34,879 - INFO - Found 1 movies for user ID 1.
+2024-10-16 17:30:34,880 - INFO - 127.0.0.1 - - [16/Oct/2024 17:30:34] "GET /user/1 HTTP/1.1" 200 -
+2024-10-16 17:30:46,865 - INFO - 127.0.0.1 - - [16/Oct/2024 17:30:46] "GET / HTTP/1.1" 200 -
+2024-10-16 17:30:48,914 - INFO - Retrieved 1 users.
+2024-10-16 17:30:48,916 - INFO - 127.0.0.1 - - [16/Oct/2024 17:30:48] "GET /users HTTP/1.1" 200 -
+2024-10-16 17:30:49,920 - INFO - Fetching movies for user ID 1.
+2024-10-16 17:30:49,927 - INFO - Fetching movies for user with ID 1.
+2024-10-16 17:30:49,929 - INFO - Found user: kummey with 1 movies.
+2024-10-16 17:30:49,930 - INFO - Found 1 movies for user ID 1.
+2024-10-16 17:30:49,940 - INFO - 127.0.0.1 - - [16/Oct/2024 17:30:49] "GET /user/1 HTTP/1.1" 200 -
+2024-10-16 17:30:53,419 - INFO - Retrieved 1 users.
+2024-10-16 17:30:53,443 - INFO - 127.0.0.1 - - [16/Oct/2024 17:30:53] "GET /users HTTP/1.1" 200 -
+2024-10-16 17:30:54,525 - INFO - Fetching movies for user ID 1.
+2024-10-16 17:30:54,532 - INFO - Fetching movies for user with ID 1.
+2024-10-16 17:30:54,535 - INFO - Found user: kummey with 1 movies.
+2024-10-16 17:30:54,535 - INFO - Found 1 movies for user ID 1.
+2024-10-16 17:30:54,536 - INFO - 127.0.0.1 - - [16/Oct/2024 17:30:54] "GET /user/1 HTTP/1.1" 200 -
+2024-10-16 17:30:55,636 - INFO - 127.0.0.1 - - [16/Oct/2024 17:30:55] "[31m[1mGET /users/1/delete_movie/1 HTTP/1.1[0m" 405 -
+2024-10-16 17:31:02,267 - INFO - 127.0.0.1 - - [16/Oct/2024 17:31:02] "[31m[1mGET /users/1/delete_movie/1 HTTP/1.1[0m" 405 -
+2024-10-16 22:04:26,364 - INFO - 127.0.0.1 - - [16/Oct/2024 22:04:26] "[31m[1mGET /users/1/delete_movie/1 HTTP/1.1[0m" 405 -
+2024-10-16 22:04:30,561 - INFO - 127.0.0.1 - - [16/Oct/2024 22:04:30] "[31m[1mGET /users/1/delete_movie/1 HTTP/1.1[0m" 405 -
+2024-10-16 22:04:41,041 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 22:04:41,041 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 22:04:41,041 - INFO -  * Restarting with stat
+2024-10-16 22:04:41,237 - WARNING -  * Debugger is active!
+2024-10-16 22:04:41,244 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:04:44,129 - INFO - 127.0.0.1 - - [16/Oct/2024 22:04:44] "[31m[1mGET /users/1/delete_movie/1 HTTP/1.1[0m" 405 -
+2024-10-16 22:04:50,027 - INFO - Fetching movies for user ID 1.
+2024-10-16 22:04:50,058 - INFO - Fetching movies for user with ID 1.
+2024-10-16 22:04:50,060 - INFO - Found user: kummey with 1 movies.
+2024-10-16 22:04:50,060 - INFO - Found 1 movies for user ID 1.
+2024-10-16 22:04:50,066 - INFO - 127.0.0.1 - - [16/Oct/2024 22:04:50] "GET /user/1 HTTP/1.1" 200 -
+2024-10-16 22:04:51,040 - INFO - Fetching movies for user ID 1.
+2024-10-16 22:04:51,042 - INFO - Fetching movies for user with ID 1.
+2024-10-16 22:04:51,043 - INFO - Found user: kummey with 1 movies.
+2024-10-16 22:04:51,043 - INFO - Found 1 movies for user ID 1.
+2024-10-16 22:04:51,044 - INFO - 127.0.0.1 - - [16/Oct/2024 22:04:51] "GET /user/1 HTTP/1.1" 200 -
+2024-10-16 22:04:52,058 - INFO - Handling delete_movie for movie ID 1.
+2024-10-16 22:04:52,084 - INFO - Movie ID 1 deleted successfully.
+2024-10-16 22:04:52,086 - INFO - 127.0.0.1 - - [16/Oct/2024 22:04:52] "[32mPOST /users/1/delete_movie/1 HTTP/1.1[0m" 302 -
+2024-10-16 22:04:52,109 - INFO - Fetching movies for user ID 1.
+2024-10-16 22:04:52,109 - INFO - Fetching movies for user with ID 1.
+2024-10-16 22:04:52,110 - INFO - User kummey has no movies.
+2024-10-16 22:04:52,110 - WARNING - No movies found for user ID 1.
+2024-10-16 22:04:52,110 - INFO - 127.0.0.1 - - [16/Oct/2024 22:04:52] "GET /user/1 HTTP/1.1" 200 -
+2024-10-16 22:04:59,259 - INFO - Handling add_movie for user ID 1.
+2024-10-16 22:04:59,262 - INFO - 127.0.0.1 - - [16/Oct/2024 22:04:59] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-16 22:05:04,866 - INFO - Handling add_movie for user ID 1.
+2024-10-16 22:05:04,886 - INFO - Adding movie with data: Name: dwa, Director: dwafa, Year: 345678, Rating: 67
+2024-10-16 22:05:04,904 - INFO - Movie 'dwa' added successfully for user ID 1.
+2024-10-16 22:05:04,905 - INFO - 127.0.0.1 - - [16/Oct/2024 22:05:04] "[32mPOST /users/1/add_movie HTTP/1.1[0m" 302 -
+2024-10-16 22:05:04,930 - INFO - Fetching movies for user ID 1.
+2024-10-16 22:05:04,930 - INFO - Fetching movies for user with ID 1.
+2024-10-16 22:05:04,931 - INFO - Found user: kummey with 1 movies.
+2024-10-16 22:05:04,931 - INFO - Found 1 movies for user ID 1.
+2024-10-16 22:05:04,931 - INFO - 127.0.0.1 - - [16/Oct/2024 22:05:04] "GET /user/1 HTTP/1.1" 200 -
+2024-10-16 22:05:08,439 - INFO - Handling update_movie for movie ID 1.
+2024-10-16 22:05:08,455 - INFO - 127.0.0.1 - - [16/Oct/2024 22:05:08] "GET /users/1/update_movie/1 HTTP/1.1" 200 -
+2024-10-16 22:05:14,398 - INFO - Handling update_movie for movie ID 1.
+2024-10-16 22:05:14,405 - INFO - Movie ID 1 updated successfully.
+2024-10-16 22:05:14,406 - INFO - 127.0.0.1 - - [16/Oct/2024 22:05:14] "[32mPOST /users/1/update_movie/1 HTTP/1.1[0m" 302 -
+2024-10-16 22:05:14,429 - INFO - Fetching movies for user ID 1.
+2024-10-16 22:05:14,430 - INFO - Fetching movies for user with ID 1.
+2024-10-16 22:05:14,431 - INFO - Found user: kummey with 1 movies.
+2024-10-16 22:05:14,431 - INFO - Found 1 movies for user ID 1.
+2024-10-16 22:05:14,431 - INFO - 127.0.0.1 - - [16/Oct/2024 22:05:14] "GET /user/1 HTTP/1.1" 200 -
+2024-10-16 22:05:16,219 - INFO - Handling delete_movie for movie ID 1.
+2024-10-16 22:05:16,227 - INFO - Movie ID 1 deleted successfully.
+2024-10-16 22:05:16,228 - INFO - 127.0.0.1 - - [16/Oct/2024 22:05:16] "[32mPOST /users/1/delete_movie/1 HTTP/1.1[0m" 302 -
+2024-10-16 22:05:16,252 - INFO - Fetching movies for user ID 1.
+2024-10-16 22:05:16,252 - INFO - Fetching movies for user with ID 1.
+2024-10-16 22:05:16,253 - INFO - User kummey has no movies.
+2024-10-16 22:05:16,253 - WARNING - No movies found for user ID 1.
+2024-10-16 22:05:16,253 - INFO - 127.0.0.1 - - [16/Oct/2024 22:05:16] "GET /user/1 HTTP/1.1" 200 -
+2024-10-16 22:06:12,257 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 22:06:12,348 - INFO -  * Restarting with stat
+2024-10-16 22:06:13,132 - WARNING -  * Debugger is active!
+2024-10-16 22:06:13,156 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:06:15,455 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 22:06:15,495 - INFO -  * Restarting with stat
+2024-10-16 22:06:15,691 - WARNING -  * Debugger is active!
+2024-10-16 22:06:15,695 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:06:17,806 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 22:06:17,875 - INFO -  * Restarting with stat
+2024-10-16 22:06:18,079 - WARNING -  * Debugger is active!
+2024-10-16 22:06:18,083 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:06:21,214 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 22:06:21,339 - INFO -  * Restarting with stat
+2024-10-16 22:06:21,561 - WARNING -  * Debugger is active!
+2024-10-16 22:06:21,565 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:06:24,660 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 22:06:24,703 - INFO -  * Restarting with stat
+2024-10-16 22:06:24,936 - WARNING -  * Debugger is active!
+2024-10-16 22:06:24,940 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:06:32,217 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 22:06:32,270 - INFO -  * Restarting with stat
+2024-10-16 22:06:32,518 - WARNING -  * Debugger is active!
+2024-10-16 22:06:32,534 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:06:33,590 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 22:06:33,653 - INFO -  * Restarting with stat
+2024-10-16 22:06:33,858 - WARNING -  * Debugger is active!
+2024-10-16 22:06:33,862 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:06:44,692 - INFO - Fetching movies for user ID 1.
+2024-10-16 22:06:44,714 - ERROR - Error fetching movies for user ID 1: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.name AS users_name 
+FROM users 
+WHERE users.id = ?]
+[parameters: (1,)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-10-16 22:06:44,714 - WARNING - No movies found for user ID 1.
+2024-10-16 22:06:44,720 - INFO - 127.0.0.1 - - [16/Oct/2024 22:06:44] "GET /user/1 HTTP/1.1" 200 -
+2024-10-16 22:06:45,970 - INFO - Handling add_movie for user ID 1.
+2024-10-16 22:06:46,128 - INFO - 127.0.0.1 - - [16/Oct/2024 22:06:46] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-16 22:06:57,132 - INFO - Handling add_movie for user ID 1.
+2024-10-16 22:06:57,135 - INFO - Adding movie with data: Name: Kummey, Director: 5, Year: 2000, Rating: 6
+2024-10-16 22:06:57,140 - ERROR - Error adding movie for user ID 1: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.name AS users_name 
+FROM users 
+WHERE users.id = ?]
+[parameters: (1,)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-10-16 22:06:57,160 - INFO - 127.0.0.1 - - [16/Oct/2024 22:06:57] "[35m[1mPOST /users/1/add_movie HTTP/1.1[0m" 500 -
+2024-10-16 22:07:20,507 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 22:07:20,574 - INFO -  * Restarting with stat
+2024-10-16 22:07:20,939 - WARNING -  * Debugger is active!
+2024-10-16 22:07:20,945 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:07:24,067 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 22:07:24,119 - INFO -  * Restarting with stat
+2024-10-16 22:07:24,309 - WARNING -  * Debugger is active!
+2024-10-16 22:07:24,312 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:07:24,340 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/models/data_manager.py', reloading
+2024-10-16 22:07:24,384 - INFO -  * Restarting with stat
+2024-10-16 22:07:24,598 - WARNING -  * Debugger is active!
+2024-10-16 22:07:24,603 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:12:49,200 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 22:12:49,200 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 22:12:49,201 - INFO -  * Restarting with stat
+2024-10-16 22:12:49,392 - WARNING -  * Debugger is active!
+2024-10-16 22:12:49,398 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:12:51,163 - INFO - 127.0.0.1 - - [16/Oct/2024 22:12:51] "GET / HTTP/1.1" 200 -
+2024-10-16 22:12:53,713 - INFO - Retrieved 0 users.
+2024-10-16 22:12:53,718 - INFO - 127.0.0.1 - - [16/Oct/2024 22:12:53] "GET /users HTTP/1.1" 200 -
+2024-10-16 22:12:56,248 - INFO - Handling add_user request.
+2024-10-16 22:12:56,255 - INFO - 127.0.0.1 - - [16/Oct/2024 22:12:56] "GET /add_user HTTP/1.1" 200 -
+2024-10-16 22:12:58,404 - INFO - Retrieved 0 users.
+2024-10-16 22:12:58,405 - INFO - 127.0.0.1 - - [16/Oct/2024 22:12:58] "GET /users HTTP/1.1" 200 -
+2024-10-16 22:13:00,892 - INFO - Handling add_user request.
+2024-10-16 22:13:00,893 - INFO - 127.0.0.1 - - [16/Oct/2024 22:13:00] "GET /add_user HTTP/1.1" 200 -
+2024-10-16 22:13:03,540 - INFO - The CSRF token is missing.
+2024-10-16 22:13:03,542 - INFO - 127.0.0.1 - - [16/Oct/2024 22:13:03] "[31m[1mPOST /add_user HTTP/1.1[0m" 400 -
+2024-10-16 22:20:23,537 - INFO - 127.0.0.1 - - [16/Oct/2024 22:20:23] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-10-16 22:20:23,861 - INFO - 127.0.0.1 - - [16/Oct/2024 22:20:23] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-16 22:20:23,874 - INFO - 127.0.0.1 - - [16/Oct/2024 22:20:23] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-16 22:20:24,258 - INFO - 127.0.0.1 - - [16/Oct/2024 22:20:24] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=D3YmhPiVcfWtlTX1MhbY HTTP/1.1" 200 -
+2024-10-16 22:20:24,419 - INFO - 127.0.0.1 - - [16/Oct/2024 22:20:24] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:20:24,521 - INFO - 127.0.0.1 - - [16/Oct/2024 22:20:24] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:20:46,370 - INFO - 127.0.0.1 - - [16/Oct/2024 22:20:46] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-10-16 22:20:46,630 - INFO - 127.0.0.1 - - [16/Oct/2024 22:20:46] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-10-16 22:20:46,664 - INFO - 127.0.0.1 - - [16/Oct/2024 22:20:46] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-16 22:20:46,689 - INFO - 127.0.0.1 - - [16/Oct/2024 22:20:46] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-16 22:20:46,775 - INFO - 127.0.0.1 - - [16/Oct/2024 22:20:46] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=D3YmhPiVcfWtlTX1MhbY HTTP/1.1[0m" 304 -
+2024-10-16 22:20:46,793 - INFO - 127.0.0.1 - - [16/Oct/2024 22:20:46] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:21:28,881 - INFO - 127.0.0.1 - - [16/Oct/2024 22:21:28] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-10-16 22:21:28,948 - INFO - 127.0.0.1 - - [16/Oct/2024 22:21:28] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-16 22:21:28,984 - INFO - 127.0.0.1 - - [16/Oct/2024 22:21:28] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-16 22:21:29,072 - INFO - 127.0.0.1 - - [16/Oct/2024 22:21:29] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=D3YmhPiVcfWtlTX1MhbY HTTP/1.1[0m" 304 -
+2024-10-16 22:21:29,103 - INFO - 127.0.0.1 - - [16/Oct/2024 22:21:29] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:21:29,239 - INFO - 127.0.0.1 - - [16/Oct/2024 22:21:29] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:21:29,939 - INFO - 127.0.0.1 - - [16/Oct/2024 22:21:29] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-10-16 22:21:29,979 - INFO - 127.0.0.1 - - [16/Oct/2024 22:21:29] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-16 22:21:30,001 - INFO - 127.0.0.1 - - [16/Oct/2024 22:21:30] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-16 22:21:30,046 - INFO - 127.0.0.1 - - [16/Oct/2024 22:21:30] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=D3YmhPiVcfWtlTX1MhbY HTTP/1.1[0m" 304 -
+2024-10-16 22:21:30,068 - INFO - 127.0.0.1 - - [16/Oct/2024 22:21:30] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:21:30,123 - INFO - 127.0.0.1 - - [16/Oct/2024 22:21:30] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:21:31,163 - INFO - 127.0.0.1 - - [16/Oct/2024 22:21:31] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-10-16 22:21:31,212 - INFO - 127.0.0.1 - - [16/Oct/2024 22:21:31] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-16 22:21:31,236 - INFO - 127.0.0.1 - - [16/Oct/2024 22:21:31] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-16 22:21:31,307 - INFO - 127.0.0.1 - - [16/Oct/2024 22:21:31] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=D3YmhPiVcfWtlTX1MhbY HTTP/1.1[0m" 304 -
+2024-10-16 22:21:31,327 - INFO - 127.0.0.1 - - [16/Oct/2024 22:21:31] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:21:31,377 - INFO - 127.0.0.1 - - [16/Oct/2024 22:21:31] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:22:12,428 - INFO - 127.0.0.1 - - [16/Oct/2024 22:22:12] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-10-16 22:22:12,573 - INFO - 127.0.0.1 - - [16/Oct/2024 22:22:12] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-16 22:22:12,602 - INFO - 127.0.0.1 - - [16/Oct/2024 22:22:12] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-16 22:22:12,675 - INFO - 127.0.0.1 - - [16/Oct/2024 22:22:12] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=D3YmhPiVcfWtlTX1MhbY HTTP/1.1[0m" 304 -
+2024-10-16 22:22:12,708 - INFO - 127.0.0.1 - - [16/Oct/2024 22:22:12] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:22:12,775 - INFO - 127.0.0.1 - - [16/Oct/2024 22:22:12] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:22:13,540 - INFO - 127.0.0.1 - - [16/Oct/2024 22:22:13] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-10-16 22:22:13,581 - INFO - 127.0.0.1 - - [16/Oct/2024 22:22:13] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-16 22:22:13,601 - INFO - 127.0.0.1 - - [16/Oct/2024 22:22:13] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-16 22:22:13,641 - INFO - 127.0.0.1 - - [16/Oct/2024 22:22:13] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=D3YmhPiVcfWtlTX1MhbY HTTP/1.1[0m" 304 -
+2024-10-16 22:22:13,667 - INFO - 127.0.0.1 - - [16/Oct/2024 22:22:13] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:22:13,726 - INFO - 127.0.0.1 - - [16/Oct/2024 22:22:13] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:22:14,152 - INFO - 127.0.0.1 - - [16/Oct/2024 22:22:14] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-10-16 22:22:14,183 - INFO - 127.0.0.1 - - [16/Oct/2024 22:22:14] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-16 22:22:14,208 - INFO - 127.0.0.1 - - [16/Oct/2024 22:22:14] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-16 22:22:14,246 - INFO - 127.0.0.1 - - [16/Oct/2024 22:22:14] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=D3YmhPiVcfWtlTX1MhbY HTTP/1.1[0m" 304 -
+2024-10-16 22:22:14,266 - INFO - 127.0.0.1 - - [16/Oct/2024 22:22:14] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:22:14,319 - INFO - 127.0.0.1 - - [16/Oct/2024 22:22:14] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:23:53,793 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 22:23:54,002 - INFO -  * Restarting with stat
+2024-10-16 22:23:54,430 - WARNING -  * Debugger is active!
+2024-10-16 22:23:54,437 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:25:16,918 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 22:25:17,013 - INFO -  * Restarting with stat
+2024-10-16 22:25:17,354 - WARNING -  * Debugger is active!
+2024-10-16 22:25:17,373 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:25:18,440 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 22:25:18,530 - INFO -  * Restarting with stat
+2024-10-16 22:25:18,982 - WARNING -  * Debugger is active!
+2024-10-16 22:25:18,986 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:25:20,632 - INFO - 127.0.0.1 - - [16/Oct/2024 22:25:20] "GET / HTTP/1.1" 200 -
+2024-10-16 22:25:32,956 - INFO - Retrieved 0 users.
+2024-10-16 22:25:32,961 - INFO - 127.0.0.1 - - [16/Oct/2024 22:25:32] "GET /users HTTP/1.1" 200 -
+2024-10-16 22:26:01,045 - INFO - 127.0.0.1 - - [16/Oct/2024 22:26:01] "GET / HTTP/1.1" 200 -
+2024-10-16 22:26:47,337 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 22:26:47,438 - INFO -  * Restarting with stat
+2024-10-16 22:26:47,867 - WARNING -  * Debugger is active!
+2024-10-16 22:26:47,883 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:27:34,224 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 22:27:34,290 - INFO -  * Restarting with stat
+2024-10-16 22:27:34,653 - WARNING -  * Debugger is active!
+2024-10-16 22:27:34,660 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:27:49,062 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 22:27:49,116 - INFO -  * Restarting with stat
+2024-10-16 22:27:49,697 - WARNING -  * Debugger is active!
+2024-10-16 22:27:49,702 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:27:54,860 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 22:27:54,907 - INFO -  * Restarting with stat
+2024-10-16 22:27:55,281 - WARNING -  * Debugger is active!
+2024-10-16 22:27:55,290 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:28:00,476 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/forms/add_user_from.py', reloading
+2024-10-16 22:28:00,537 - INFO -  * Restarting with stat
+2024-10-16 22:28:00,857 - WARNING -  * Debugger is active!
+2024-10-16 22:28:00,861 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:28:16,276 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 22:28:16,334 - INFO -  * Restarting with stat
+2024-10-16 22:28:16,651 - WARNING -  * Debugger is active!
+2024-10-16 22:28:16,657 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:28:35,192 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 22:28:35,266 - INFO -  * Restarting with stat
+2024-10-16 22:28:35,581 - WARNING -  * Debugger is active!
+2024-10-16 22:28:35,586 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:28:36,633 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 22:28:36,696 - INFO -  * Restarting with stat
+2024-10-16 22:28:36,936 - WARNING -  * Debugger is active!
+2024-10-16 22:28:36,941 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:28:37,987 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 22:28:38,035 - INFO -  * Restarting with stat
+2024-10-16 22:28:38,341 - WARNING -  * Debugger is active!
+2024-10-16 22:28:38,345 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:28:42,352 - INFO - Handling add_user request.
+2024-10-16 22:28:42,383 - INFO - 127.0.0.1 - - [16/Oct/2024 22:28:42] "[35m[1mGET /add_user HTTP/1.1[0m" 500 -
+2024-10-16 22:28:42,553 - INFO - 127.0.0.1 - - [16/Oct/2024 22:28:42] "GET /add_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-10-16 22:28:42,603 - INFO - 127.0.0.1 - - [16/Oct/2024 22:28:42] "GET /add_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-10-16 22:28:42,737 - INFO - 127.0.0.1 - - [16/Oct/2024 22:28:42] "GET /add_user?__debugger__=yes&cmd=resource&f=console.png&s=WPK0604XL8S3GCIMUwcU HTTP/1.1" 200 -
+2024-10-16 22:28:42,761 - INFO - 127.0.0.1 - - [16/Oct/2024 22:28:42] "GET /add_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-10-16 22:28:42,885 - INFO - 127.0.0.1 - - [16/Oct/2024 22:28:42] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:28:46,665 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 22:28:46,727 - INFO -  * Restarting with stat
+2024-10-16 22:28:47,062 - WARNING -  * Debugger is active!
+2024-10-16 22:28:47,076 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:28:49,158 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 22:28:49,210 - INFO -  * Restarting with stat
+2024-10-16 22:28:49,468 - WARNING -  * Debugger is active!
+2024-10-16 22:28:49,471 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:29:03,919 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 22:29:03,984 - INFO -  * Restarting with stat
+2024-10-16 22:29:04,310 - WARNING -  * Debugger is active!
+2024-10-16 22:29:04,321 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:29:29,781 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 22:29:29,781 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 22:29:29,782 - INFO -  * Restarting with stat
+2024-10-16 22:29:29,975 - WARNING -  * Debugger is active!
+2024-10-16 22:29:29,983 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:29:31,364 - INFO - Handling add_user request.
+2024-10-16 22:29:31,449 - INFO - 127.0.0.1 - - [16/Oct/2024 22:29:31] "[35m[1mGET /add_user HTTP/1.1[0m" 500 -
+2024-10-16 22:29:31,647 - INFO - 127.0.0.1 - - [16/Oct/2024 22:29:31] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-16 22:29:31,680 - INFO - 127.0.0.1 - - [16/Oct/2024 22:29:31] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-16 22:29:31,786 - INFO - Handling add_user request.
+2024-10-16 22:29:31,791 - INFO - 127.0.0.1 - - [16/Oct/2024 22:29:31] "[35m[1mGET /add_user HTTP/1.1[0m" 500 -
+2024-10-16 22:29:31,825 - INFO - 127.0.0.1 - - [16/Oct/2024 22:29:31] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-16 22:29:31,845 - INFO - 127.0.0.1 - - [16/Oct/2024 22:29:31] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-16 22:29:31,939 - INFO - 127.0.0.1 - - [16/Oct/2024 22:29:31] "GET /add_user?__debugger__=yes&cmd=resource&f=console.png&s=dtZ6iqnl97qXN32uYIWB HTTP/1.1" 200 -
+2024-10-16 22:29:31,973 - INFO - 127.0.0.1 - - [16/Oct/2024 22:29:31] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:29:32,156 - INFO - 127.0.0.1 - - [16/Oct/2024 22:29:32] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:29:32,525 - INFO - Handling add_user request.
+2024-10-16 22:29:32,538 - INFO - 127.0.0.1 - - [16/Oct/2024 22:29:32] "[35m[1mGET /add_user HTTP/1.1[0m" 500 -
+2024-10-16 22:29:32,569 - INFO - 127.0.0.1 - - [16/Oct/2024 22:29:32] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-16 22:29:32,598 - INFO - 127.0.0.1 - - [16/Oct/2024 22:29:32] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-16 22:29:32,636 - INFO - 127.0.0.1 - - [16/Oct/2024 22:29:32] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=console.png&s=dtZ6iqnl97qXN32uYIWB HTTP/1.1[0m" 304 -
+2024-10-16 22:29:32,654 - INFO - 127.0.0.1 - - [16/Oct/2024 22:29:32] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:29:32,731 - INFO - 127.0.0.1 - - [16/Oct/2024 22:29:32] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:29:34,489 - INFO - Handling add_user request.
+2024-10-16 22:29:34,502 - INFO - 127.0.0.1 - - [16/Oct/2024 22:29:34] "[35m[1mGET /add_user HTTP/1.1[0m" 500 -
+2024-10-16 22:29:34,553 - INFO - 127.0.0.1 - - [16/Oct/2024 22:29:34] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-16 22:29:34,576 - INFO - 127.0.0.1 - - [16/Oct/2024 22:29:34] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-16 22:29:34,620 - INFO - 127.0.0.1 - - [16/Oct/2024 22:29:34] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=console.png&s=dtZ6iqnl97qXN32uYIWB HTTP/1.1[0m" 304 -
+2024-10-16 22:29:34,647 - INFO - 127.0.0.1 - - [16/Oct/2024 22:29:34] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:30:49,089 - INFO - Retrieved 0 users.
+2024-10-16 22:30:49,092 - INFO - 127.0.0.1 - - [16/Oct/2024 22:30:49] "GET /users HTTP/1.1" 200 -
+2024-10-16 22:30:52,173 - INFO - Handling add_user request.
+2024-10-16 22:30:52,180 - INFO - 127.0.0.1 - - [16/Oct/2024 22:30:52] "[35m[1mGET /add_user HTTP/1.1[0m" 500 -
+2024-10-16 22:30:52,228 - INFO - 127.0.0.1 - - [16/Oct/2024 22:30:52] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-16 22:30:52,250 - INFO - 127.0.0.1 - - [16/Oct/2024 22:30:52] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-16 22:30:52,289 - INFO - 127.0.0.1 - - [16/Oct/2024 22:30:52] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=console.png&s=dtZ6iqnl97qXN32uYIWB HTTP/1.1[0m" 304 -
+2024-10-16 22:30:52,314 - INFO - 127.0.0.1 - - [16/Oct/2024 22:30:52] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:31:26,364 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 22:31:26,582 - INFO -  * Restarting with stat
+2024-10-16 22:31:27,185 - WARNING -  * Debugger is active!
+2024-10-16 22:31:27,203 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:31:31,432 - INFO - Handling add_user request.
+2024-10-16 22:31:31,466 - INFO - 127.0.0.1 - - [16/Oct/2024 22:31:31] "[35m[1mGET /add_user HTTP/1.1[0m" 500 -
+2024-10-16 22:31:31,585 - INFO - 127.0.0.1 - - [16/Oct/2024 22:31:31] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-16 22:31:31,614 - INFO - 127.0.0.1 - - [16/Oct/2024 22:31:31] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-16 22:31:31,690 - INFO - 127.0.0.1 - - [16/Oct/2024 22:31:31] "GET /add_user?__debugger__=yes&cmd=resource&f=console.png&s=AswF675EkHyUDNgNSG8l HTTP/1.1" 200 -
+2024-10-16 22:31:31,723 - INFO - 127.0.0.1 - - [16/Oct/2024 22:31:31] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:31:50,920 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 22:31:51,000 - INFO -  * Restarting with stat
+2024-10-16 22:32:06,659 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 22:32:06,659 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 22:32:06,660 - INFO -  * Restarting with stat
+2024-10-16 22:32:06,854 - WARNING -  * Debugger is active!
+2024-10-16 22:32:06,860 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:32:09,629 - INFO - 127.0.0.1 - - [16/Oct/2024 22:32:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-10-16 22:32:09,730 - INFO - 127.0.0.1 - - [16/Oct/2024 22:32:09] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-16 22:32:09,744 - INFO - 127.0.0.1 - - [16/Oct/2024 22:32:09] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-16 22:32:09,867 - INFO - 127.0.0.1 - - [16/Oct/2024 22:32:09] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=cL6lclAZp5UmaevT0tAl HTTP/1.1" 200 -
+2024-10-16 22:32:09,902 - INFO - 127.0.0.1 - - [16/Oct/2024 22:32:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:32:10,048 - INFO - 127.0.0.1 - - [16/Oct/2024 22:32:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:32:11,844 - INFO - Fetching movies for user ID 1.
+2024-10-16 22:32:11,887 - WARNING - User with ID 1 not found.
+2024-10-16 22:32:11,887 - WARNING - No movies found for user ID 1.
+2024-10-16 22:32:11,893 - INFO - 127.0.0.1 - - [16/Oct/2024 22:32:11] "GET /user/1 HTTP/1.1" 200 -
+2024-10-16 22:32:13,617 - INFO - Handling update_movie for movie ID 1.
+2024-10-16 22:32:13,630 - WARNING - Movie ID 1 not found.
+2024-10-16 22:32:13,635 - INFO - 127.0.0.1 - - [16/Oct/2024 22:32:13] "[33mGET /users/1/update_movie/1 HTTP/1.1[0m" 404 -
+2024-10-16 22:32:16,086 - INFO - 127.0.0.1 - - [16/Oct/2024 22:32:16] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-10-16 22:32:16,231 - INFO - 127.0.0.1 - - [16/Oct/2024 22:32:16] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-10-16 22:32:16,261 - INFO - 127.0.0.1 - - [16/Oct/2024 22:32:16] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-16 22:32:16,281 - INFO - 127.0.0.1 - - [16/Oct/2024 22:32:16] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-16 22:32:16,364 - INFO - 127.0.0.1 - - [16/Oct/2024 22:32:16] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=cL6lclAZp5UmaevT0tAl HTTP/1.1[0m" 304 -
+2024-10-16 22:32:16,383 - INFO - 127.0.0.1 - - [16/Oct/2024 22:32:16] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:32:34,975 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 22:32:35,070 - INFO -  * Restarting with stat
+2024-10-16 22:32:35,421 - WARNING -  * Debugger is active!
+2024-10-16 22:32:35,433 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:32:41,663 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 22:32:41,729 - INFO -  * Restarting with stat
+2024-10-16 22:32:42,100 - WARNING -  * Debugger is active!
+2024-10-16 22:32:42,116 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:32:43,955 - INFO - 127.0.0.1 - - [16/Oct/2024 22:32:43] "GET / HTTP/1.1" 200 -
+2024-10-16 22:32:44,386 - INFO - 127.0.0.1 - - [16/Oct/2024 22:32:44] "GET / HTTP/1.1" 200 -
+2024-10-16 22:32:45,376 - INFO - Handling add_user request.
+2024-10-16 22:32:45,382 - INFO - 127.0.0.1 - - [16/Oct/2024 22:32:45] "GET /add_user HTTP/1.1" 200 -
+2024-10-16 22:32:48,064 - INFO - Handling add_user request.
+2024-10-16 22:32:48,077 - INFO - User 'Kummey' added successfully.
+2024-10-16 22:32:48,078 - INFO - 127.0.0.1 - - [16/Oct/2024 22:32:48] "[32mPOST /add_user HTTP/1.1[0m" 302 -
+2024-10-16 22:32:48,108 - INFO - Retrieved 1 users.
+2024-10-16 22:32:48,110 - INFO - 127.0.0.1 - - [16/Oct/2024 22:32:48] "GET /users HTTP/1.1" 200 -
+2024-10-16 22:32:49,182 - INFO - Fetching movies for user ID 1.
+2024-10-16 22:32:49,193 - INFO - Fetching movies for user with ID 1.
+2024-10-16 22:32:49,197 - INFO - User Kummey has no movies.
+2024-10-16 22:32:49,197 - WARNING - No movies found for user ID 1.
+2024-10-16 22:32:49,210 - INFO - 127.0.0.1 - - [16/Oct/2024 22:32:49] "GET /user/1 HTTP/1.1" 200 -
+2024-10-16 22:32:50,256 - INFO - Handling add_movie for user ID 1.
+2024-10-16 22:32:50,268 - INFO - 127.0.0.1 - - [16/Oct/2024 22:32:50] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-16 22:32:57,395 - INFO - The CSRF token is missing.
+2024-10-16 22:32:57,397 - INFO - 127.0.0.1 - - [16/Oct/2024 22:32:57] "[31m[1mPOST /users/1/add_movie HTTP/1.1[0m" 400 -
+2024-10-16 22:34:13,509 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 22:34:13,642 - INFO -  * Restarting with stat
+2024-10-16 22:34:14,160 - WARNING -  * Debugger is active!
+2024-10-16 22:34:14,174 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:34:18,332 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 22:34:18,392 - INFO -  * Restarting with stat
+2024-10-16 22:34:18,641 - WARNING -  * Debugger is active!
+2024-10-16 22:34:18,647 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:34:48,595 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/forms/add_movie_form.py', reloading
+2024-10-16 22:34:48,656 - INFO -  * Restarting with stat
+2024-10-16 22:34:48,976 - WARNING -  * Debugger is active!
+2024-10-16 22:34:48,981 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:35:57,673 - INFO - The CSRF token is missing.
+2024-10-16 22:35:57,675 - INFO - 127.0.0.1 - - [16/Oct/2024 22:35:57] "[31m[1mPOST /users/1/add_movie HTTP/1.1[0m" 400 -
+2024-10-16 22:36:01,318 - INFO - The CSRF token is missing.
+2024-10-16 22:36:01,319 - INFO - 127.0.0.1 - - [16/Oct/2024 22:36:01] "[31m[1mPOST /users/1/add_movie HTTP/1.1[0m" 400 -
+2024-10-16 22:36:11,558 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 22:36:11,558 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 22:36:11,558 - INFO -  * Restarting with stat
+2024-10-16 22:36:11,757 - WARNING -  * Debugger is active!
+2024-10-16 22:36:11,768 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:36:13,194 - INFO - Handling add_movie for user ID 1.
+2024-10-16 22:36:13,214 - INFO - 127.0.0.1 - - [16/Oct/2024 22:36:13] "[35m[1mGET /users/1/add_movie HTTP/1.1[0m" 500 -
+2024-10-16 22:36:13,276 - INFO - 127.0.0.1 - - [16/Oct/2024 22:36:13] "GET /users/1/add_movie?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-10-16 22:36:13,299 - INFO - 127.0.0.1 - - [16/Oct/2024 22:36:13] "GET /users/1/add_movie?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-10-16 22:36:13,388 - INFO - 127.0.0.1 - - [16/Oct/2024 22:36:13] "GET /users/1/add_movie?__debugger__=yes&cmd=resource&f=console.png&s=ldBQ0A1cjveCbnnyhnxN HTTP/1.1" 200 -
+2024-10-16 22:36:13,408 - INFO - 127.0.0.1 - - [16/Oct/2024 22:36:13] "GET /users/1/add_movie?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-10-16 22:36:13,490 - INFO - 127.0.0.1 - - [16/Oct/2024 22:36:13] "[36mGET /users/1/add_movie?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:36:14,096 - INFO - Handling add_movie for user ID 1.
+2024-10-16 22:36:14,103 - INFO - 127.0.0.1 - - [16/Oct/2024 22:36:14] "[35m[1mGET /users/1/add_movie HTTP/1.1[0m" 500 -
+2024-10-16 22:36:14,159 - INFO - 127.0.0.1 - - [16/Oct/2024 22:36:14] "[36mGET /users/1/add_movie?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-16 22:36:14,179 - INFO - 127.0.0.1 - - [16/Oct/2024 22:36:14] "[36mGET /users/1/add_movie?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-16 22:36:14,230 - INFO - 127.0.0.1 - - [16/Oct/2024 22:36:14] "[36mGET /users/1/add_movie?__debugger__=yes&cmd=resource&f=console.png&s=ldBQ0A1cjveCbnnyhnxN HTTP/1.1[0m" 304 -
+2024-10-16 22:36:14,252 - INFO - 127.0.0.1 - - [16/Oct/2024 22:36:14] "[36mGET /users/1/add_movie?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:36:14,318 - INFO - 127.0.0.1 - - [16/Oct/2024 22:36:14] "[36mGET /users/1/add_movie?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-16 22:36:26,425 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 22:36:26,478 - INFO -  * Restarting with stat
+2024-10-16 22:36:26,872 - WARNING -  * Debugger is active!
+2024-10-16 22:36:26,885 - INFO -  * Debugger PIN: 128-870-148
+2024-10-16 22:36:28,726 - INFO - Handling add_movie for user ID 1.
+2024-10-16 22:36:28,749 - INFO - 127.0.0.1 - - [16/Oct/2024 22:36:28] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-16 22:36:37,474 - INFO - Handling add_movie for user ID 1.
+2024-10-16 22:36:37,480 - INFO - Adding movie with data: Name: Kummey, Director: The Phil, Year: 1987, Rating: 5.0
+2024-10-16 22:36:37,514 - INFO - Movie 'Kummey' added successfully for user ID 1.
+2024-10-16 22:36:37,514 - INFO - Movie 'Kummey' added successfully for user ID 1.
+2024-10-16 22:36:37,515 - INFO - 127.0.0.1 - - [16/Oct/2024 22:36:37] "[32mPOST /users/1/add_movie HTTP/1.1[0m" 302 -
+2024-10-16 22:36:37,543 - INFO - Fetching movies for user ID 1.
+2024-10-16 22:36:37,544 - INFO - Fetching movies for user with ID 1.
+2024-10-16 22:36:37,545 - INFO - Found user: Kummey with 1 movies.
+2024-10-16 22:36:37,545 - INFO - Found 1 movies for user ID 1.
+2024-10-16 22:36:37,548 - INFO - 127.0.0.1 - - [16/Oct/2024 22:36:37] "GET /user/1 HTTP/1.1" 200 -
+2024-10-16 22:36:40,678 - INFO - Handling update_movie for movie ID 1.
+2024-10-16 22:36:40,709 - INFO - 127.0.0.1 - - [16/Oct/2024 22:36:40] "GET /users/1/update_movie/1 HTTP/1.1" 200 -
+2024-10-16 22:36:50,922 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-16 22:36:50,986 - INFO -  * Restarting with stat
+2024-10-16 22:36:51,457 - WARNING -  * Debugger is active!
+2024-10-16 22:36:51,466 - INFO -  * Debugger PIN: 128-870-148
+2024-10-17 10:36:15,589 - INFO - Fetching movies for user ID 1.
+2024-10-17 10:36:15,767 - INFO - Fetching movies for user with ID 1.
+2024-10-17 10:36:15,769 - INFO - Found user: Kummey with 1 movies.
+2024-10-17 10:36:15,769 - INFO - Found 1 movies for user ID 1.
+2024-10-17 10:36:15,793 - INFO - 127.0.0.1 - - [17/Oct/2024 10:36:15] "GET /user/1 HTTP/1.1" 200 -
+2024-10-17 16:07:28,277 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-17 16:07:29,787 - INFO -  * Restarting with stat
+2024-10-17 16:07:30,743 - WARNING -  * Debugger is active!
+2024-10-17 16:07:30,765 - INFO -  * Debugger PIN: 128-870-148
+2024-10-17 16:07:33,872 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/forms/add_movie_form.py', reloading
+2024-10-17 16:07:33,946 - INFO -  * Restarting with stat
+2024-10-17 16:07:34,288 - WARNING -  * Debugger is active!
+2024-10-17 16:07:34,292 - INFO -  * Debugger PIN: 128-870-148
+2024-10-17 16:20:10,691 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-17 16:20:10,691 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-17 16:20:10,692 - INFO -  * Restarting with stat
+2024-10-17 16:20:10,897 - WARNING -  * Debugger is active!
+2024-10-17 16:20:10,903 - INFO -  * Debugger PIN: 128-870-148
+2024-10-17 16:20:15,012 - INFO - 127.0.0.1 - - [17/Oct/2024 16:20:15] "GET / HTTP/1.1" 200 -
+2024-10-17 16:20:17,468 - INFO - Retrieved 1 users.
+2024-10-17 16:20:17,472 - INFO - 127.0.0.1 - - [17/Oct/2024 16:20:17] "GET /users HTTP/1.1" 200 -
+2024-10-17 16:20:21,454 - INFO - Handling add_user request.
+2024-10-17 16:20:21,497 - INFO - 127.0.0.1 - - [17/Oct/2024 16:20:21] "[35m[1mGET /add_user HTTP/1.1[0m" 500 -
+2024-10-17 16:20:21,590 - INFO - 127.0.0.1 - - [17/Oct/2024 16:20:21] "GET /add_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-10-17 16:20:21,605 - INFO - 127.0.0.1 - - [17/Oct/2024 16:20:21] "GET /add_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-10-17 16:20:21,709 - INFO - 127.0.0.1 - - [17/Oct/2024 16:20:21] "GET /add_user?__debugger__=yes&cmd=resource&f=console.png&s=PMlMkJqzkaHnKDmQArMw HTTP/1.1" 200 -
+2024-10-17 16:20:21,740 - INFO - 127.0.0.1 - - [17/Oct/2024 16:20:21] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-17 16:20:21,833 - INFO - 127.0.0.1 - - [17/Oct/2024 16:20:21] "[36mGET /add_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-17 16:20:58,335 - INFO - Handling add_user request.
+2024-10-17 16:20:58,459 - INFO - 127.0.0.1 - - [17/Oct/2024 16:20:58] "GET /add_user HTTP/1.1" 200 -
+2024-10-17 16:21:01,247 - INFO - Retrieved 1 users.
+2024-10-17 16:21:01,249 - INFO - 127.0.0.1 - - [17/Oct/2024 16:21:01] "GET /users HTTP/1.1" 200 -
+2024-10-17 16:21:08,045 - INFO - Retrieved 1 users.
+2024-10-17 16:21:08,063 - INFO - 127.0.0.1 - - [17/Oct/2024 16:21:08] "GET /users HTTP/1.1" 200 -
+2024-10-17 16:21:10,116 - INFO - Fetching movies for user ID 1.
+2024-10-17 16:21:10,128 - INFO - Fetching movies for user with ID 1.
+2024-10-17 16:21:10,146 - INFO - Found user: Kummey with 1 movies.
+2024-10-17 16:21:10,146 - INFO - Found 1 movies for user ID 1.
+2024-10-17 16:21:10,151 - INFO - 127.0.0.1 - - [17/Oct/2024 16:21:10] "GET /user/1 HTTP/1.1" 200 -
+2024-10-17 16:21:15,808 - INFO - Handling add_user request.
+2024-10-17 16:21:15,811 - INFO - 127.0.0.1 - - [17/Oct/2024 16:21:15] "GET /add_user HTTP/1.1" 200 -
+2024-10-17 16:21:18,467 - INFO - Retrieved 1 users.
+2024-10-17 16:21:18,469 - INFO - 127.0.0.1 - - [17/Oct/2024 16:21:18] "GET /users HTTP/1.1" 200 -
+2024-10-17 16:21:22,802 - INFO - Retrieved 1 users.
+2024-10-17 16:21:22,803 - INFO - 127.0.0.1 - - [17/Oct/2024 16:21:22] "GET /users HTTP/1.1" 200 -
+2024-10-17 16:21:25,065 - INFO - Handling add_user request.
+2024-10-17 16:21:25,067 - INFO - 127.0.0.1 - - [17/Oct/2024 16:21:25] "GET /add_user HTTP/1.1" 200 -
+2024-10-17 16:21:31,816 - INFO - Handling add_user request.
+2024-10-17 16:21:31,843 - INFO - User 'Stepstone' added successfully.
+2024-10-17 16:21:31,843 - INFO - 127.0.0.1 - - [17/Oct/2024 16:21:31] "[32mPOST /add_user HTTP/1.1[0m" 302 -
+2024-10-17 16:21:31,867 - INFO - Retrieved 2 users.
+2024-10-17 16:21:31,868 - INFO - 127.0.0.1 - - [17/Oct/2024 16:21:31] "GET /users HTTP/1.1" 200 -
+2024-10-17 16:21:33,891 - INFO - Fetching movies for user ID 2.
+2024-10-17 16:21:33,898 - INFO - Fetching movies for user with ID 2.
+2024-10-17 16:21:33,900 - INFO - User Stepstone has no movies.
+2024-10-17 16:21:33,900 - WARNING - No movies found for user ID 2.
+2024-10-17 16:21:33,905 - INFO - 127.0.0.1 - - [17/Oct/2024 16:21:33] "GET /user/2 HTTP/1.1" 200 -
+2024-10-17 16:21:34,851 - INFO - Handling add_movie for user ID 2.
+2024-10-17 16:21:34,878 - INFO - 127.0.0.1 - - [17/Oct/2024 16:21:34] "GET /users/2/add_movie HTTP/1.1" 200 -
+2024-10-17 16:21:41,225 - INFO - Handling add_movie for user ID 2.
+2024-10-17 16:21:41,226 - INFO - Adding movie with data: Name: Kummey, Director: The Phil, Year: 3345, Rating: 5.0
+2024-10-17 16:21:41,251 - INFO - Movie 'Kummey' added successfully for user ID 2.
+2024-10-17 16:21:41,252 - INFO - Movie 'Kummey' added successfully for user ID 2.
+2024-10-17 16:21:41,252 - INFO - 127.0.0.1 - - [17/Oct/2024 16:21:41] "[32mPOST /users/2/add_movie HTTP/1.1[0m" 302 -
+2024-10-17 16:21:41,275 - INFO - Fetching movies for user ID 2.
+2024-10-17 16:21:41,276 - INFO - Fetching movies for user with ID 2.
+2024-10-17 16:21:41,277 - INFO - Found user: Stepstone with 1 movies.
+2024-10-17 16:21:41,277 - INFO - Found 1 movies for user ID 2.
+2024-10-17 16:21:41,279 - INFO - 127.0.0.1 - - [17/Oct/2024 16:21:41] "GET /user/2 HTTP/1.1" 200 -
+2024-10-17 16:21:47,329 - INFO - Fetching movies for user ID 2.
+2024-10-17 16:21:47,335 - INFO - Fetching movies for user with ID 2.
+2024-10-17 16:21:47,337 - INFO - Found user: Stepstone with 1 movies.
+2024-10-17 16:21:47,337 - INFO - Found 1 movies for user ID 2.
+2024-10-17 16:21:47,340 - INFO - 127.0.0.1 - - [17/Oct/2024 16:21:47] "GET /user/2 HTTP/1.1" 200 -
+2024-10-17 16:21:48,442 - INFO - Fetching movies for user ID 2.
+2024-10-17 16:21:48,448 - INFO - Fetching movies for user with ID 2.
+2024-10-17 16:21:48,450 - INFO - Found user: Stepstone with 1 movies.
+2024-10-17 16:21:48,451 - INFO - Found 1 movies for user ID 2.
+2024-10-17 16:21:48,453 - INFO - 127.0.0.1 - - [17/Oct/2024 16:21:48] "GET /user/2 HTTP/1.1" 200 -
+2024-10-17 16:21:54,256 - INFO - Fetching movies for user ID 1.
+2024-10-17 16:21:54,262 - INFO - Fetching movies for user with ID 1.
+2024-10-17 16:21:54,264 - INFO - Found user: Kummey with 1 movies.
+2024-10-17 16:21:54,264 - INFO - Found 1 movies for user ID 1.
+2024-10-17 16:21:54,266 - INFO - 127.0.0.1 - - [17/Oct/2024 16:21:54] "GET /user/1 HTTP/1.1" 200 -
+2024-10-17 16:21:56,997 - INFO - Fetching movies for user ID 2.
+2024-10-17 16:21:57,002 - INFO - Fetching movies for user with ID 2.
+2024-10-17 16:21:57,004 - INFO - Found user: Stepstone with 1 movies.
+2024-10-17 16:21:57,004 - INFO - Found 1 movies for user ID 2.
+2024-10-17 16:21:57,006 - INFO - 127.0.0.1 - - [17/Oct/2024 16:21:57] "GET /user/2 HTTP/1.1" 200 -
+2024-10-17 16:22:01,889 - INFO - Handling add_user request.
+2024-10-17 16:22:01,892 - INFO - 127.0.0.1 - - [17/Oct/2024 16:22:01] "GET /add_user HTTP/1.1" 200 -

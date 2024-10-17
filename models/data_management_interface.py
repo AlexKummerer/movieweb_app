@@ -27,3 +27,8 @@ class DataManagerInterface(ABC):
     def delete_movie(self, movie_id):
         """Delete a movie from the user's list."""
         pass
+    
+    @abstractmethod
+    def get_movie(self, movie_id):
+        """Retrieve a single movie."""
+        pass

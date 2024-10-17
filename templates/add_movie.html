@@ -1,27 +1,45 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add Movie - MovieWeb App</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <title>Add Movie - MovieWeb App</title>
 </head>
 <body>
-    <h1>Add a New Movie</h1>
-    <form method="POST">
-        <label for="name">Movie Name:</label>
-        <input type="text" name="name" id="name" required>
-        
-        <label for="director">Director:</label>
-        <input type="text" name="director" id="director" required>
+  <div class="container mt-5">
+    <h1 class="text-center">Add a New Movie</h1>
 
-        <label for="year">Year:</label>
-        <input type="number" name="year" id="year" required>
+    <form method="POST" class="mt-4">
+      {{ form.hidden_tag() }}
 
-        <label for="rating">Rating:</label>
-        <input type="number" step="0.1" name="rating" id="rating" required>
+      <div class="mb-3">
+        <label for="name">{{ form.name.label }}</label>
+        {{ form.name(class_="form-control", placeholder="Enter movie name") }}
+      </div>
 
-        <button type="submit">Add Movie</button>
+      <div class="mb-3">
+        <label for="director">{{ form.director.label }}</label>
+        {{ form.director(class_="form-control", placeholder="Enter director name") }}
+      </div>
+
+      <div class="mb-3">
+        <label for="year">{{ form.year.label }}</label>
+        {{ form.year(class_="form-control", placeholder="Enter release year") }}
+      </div>
+
+      <div class="mb-3">
+        <label for="rating">{{ form.rating.label }}</label>
+        {{ form.rating(class_="form-control", step="0.1", placeholder="Enter rating (0-10)") }}
+      </div>
+
+      <button type="submit" class="btn btn-primary">Add Movie</button>
     </form>
+
+    <a class="btn btn-secondary mt-3" href="{{ url_for('user_movies', user_id=user_id) }}">Back to Movie List</a>
+  </div>
 </body>
 </html>
