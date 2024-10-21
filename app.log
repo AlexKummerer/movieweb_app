@@ -1025,3 +1025,489 @@ WHERE users.id = ?]
 2024-10-17 16:21:57,006 - INFO - 127.0.0.1 - - [17/Oct/2024 16:21:57] "GET /user/2 HTTP/1.1" 200 -
 2024-10-17 16:22:01,889 - INFO - Handling add_user request.
 2024-10-17 16:22:01,892 - INFO - 127.0.0.1 - - [17/Oct/2024 16:22:01] "GET /add_user HTTP/1.1" 200 -
+2024-10-17 16:22:26,231 - INFO -  * Detected change in '/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py', reloading
+2024-10-17 16:22:26,396 - INFO -  * Restarting with stat
+2024-10-17 16:22:27,247 - WARNING -  * Debugger is active!
+2024-10-17 16:22:27,269 - INFO -  * Debugger PIN: 128-870-148
+2024-10-21 10:38:14,867 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-21 10:38:14,872 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-21 10:38:34,247 - INFO - 127.0.0.1 - - [21/Oct/2024 10:38:34] "GET / HTTP/1.1" 200 -
+2024-10-21 10:39:09,526 - INFO - Handling add_user request.
+2024-10-21 10:39:09,551 - INFO - 127.0.0.1 - - [21/Oct/2024 10:39:09] "GET /add_user HTTP/1.1" 200 -
+2024-10-21 10:39:12,693 - INFO - Handling add_user request.
+2024-10-21 10:39:12,761 - ERROR - Error adding user: (sqlite3.IntegrityError) UNIQUE constraint failed: users.name
+[SQL: INSERT INTO users (name) VALUES (?)]
+[parameters: ('Kummey',)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-10-21 10:39:12,766 - INFO - 127.0.0.1 - - [21/Oct/2024 10:39:12] "[35m[1mPOST /add_user HTTP/1.1[0m" 500 -
+2024-10-21 10:39:14,045 - INFO - 127.0.0.1 - - [21/Oct/2024 10:39:14] "GET / HTTP/1.1" 200 -
+2024-10-21 10:39:14,844 - INFO - Retrieved 2 users.
+2024-10-21 10:39:14,846 - INFO - 127.0.0.1 - - [21/Oct/2024 10:39:14] "GET /users HTTP/1.1" 200 -
+2024-10-21 10:39:16,190 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:39:16,203 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:39:16,207 - INFO - Found user: Kummey with 1 movies.
+2024-10-21 10:39:16,207 - INFO - Found 1 movies for user ID 1.
+2024-10-21 10:39:16,214 - INFO - 127.0.0.1 - - [21/Oct/2024 10:39:16] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:39:18,827 - INFO - The CSRF token is missing.
+2024-10-21 10:39:18,829 - INFO - 127.0.0.1 - - [21/Oct/2024 10:39:18] "[31m[1mPOST /users/1/delete_movie/1 HTTP/1.1[0m" 400 -
+2024-10-21 10:43:53,191 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:43:53,251 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:43:53,258 - INFO - Found user: Kummey with 1 movies.
+2024-10-21 10:43:53,259 - INFO - Found 1 movies for user ID 1.
+2024-10-21 10:43:53,275 - INFO - 127.0.0.1 - - [21/Oct/2024 10:43:53] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:43:55,078 - INFO - The CSRF token is missing.
+2024-10-21 10:43:55,082 - INFO - 127.0.0.1 - - [21/Oct/2024 10:43:55] "[31m[1mPOST /users/1/delete_movie/1 HTTP/1.1[0m" 400 -
+2024-10-21 10:44:49,079 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:44:49,161 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:44:49,168 - INFO - Found user: Kummey with 1 movies.
+2024-10-21 10:44:49,168 - INFO - Found 1 movies for user ID 1.
+2024-10-21 10:44:49,179 - INFO - 127.0.0.1 - - [21/Oct/2024 10:44:49] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:44:51,548 - INFO - The CSRF token is missing.
+2024-10-21 10:44:51,601 - INFO - 127.0.0.1 - - [21/Oct/2024 10:44:51] "[31m[1mPOST /users/1/delete_movie/1 HTTP/1.1[0m" 400 -
+2024-10-21 10:44:58,728 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-21 10:44:58,728 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-21 10:45:06,811 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:45:06,882 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:45:06,891 - INFO - Found user: Kummey with 1 movies.
+2024-10-21 10:45:06,892 - INFO - Found 1 movies for user ID 1.
+2024-10-21 10:45:06,907 - ERROR - Error fetching movies for user ID 1: 'form' is undefined
+2024-10-21 10:45:06,908 - INFO - 127.0.0.1 - - [21/Oct/2024 10:45:06] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:45:12,379 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:45:12,386 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:45:12,387 - INFO - Found user: Kummey with 1 movies.
+2024-10-21 10:45:12,387 - INFO - Found 1 movies for user ID 1.
+2024-10-21 10:45:12,389 - ERROR - Error fetching movies for user ID 1: 'form' is undefined
+2024-10-21 10:45:12,390 - INFO - 127.0.0.1 - - [21/Oct/2024 10:45:12] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:45:15,038 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:45:15,069 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:45:15,071 - INFO - Found user: Kummey with 1 movies.
+2024-10-21 10:45:15,071 - INFO - Found 1 movies for user ID 1.
+2024-10-21 10:45:15,072 - ERROR - Error fetching movies for user ID 1: 'form' is undefined
+2024-10-21 10:45:15,073 - INFO - 127.0.0.1 - - [21/Oct/2024 10:45:15] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:45:15,787 - INFO - Handling add_movie for user ID 1.
+2024-10-21 10:45:15,792 - INFO - 127.0.0.1 - - [21/Oct/2024 10:45:15] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-21 10:45:23,902 - INFO - Handling add_movie for user ID 1.
+2024-10-21 10:45:23,904 - INFO - Adding movie with data: Name: Kummey, Director: The Phil, Year: 1986, Rating: 5.0
+2024-10-21 10:45:23,916 - INFO - Movie 'Kummey' added successfully for user ID 1.
+2024-10-21 10:45:23,917 - INFO - Movie 'Kummey' added successfully for user ID 1.
+2024-10-21 10:45:23,917 - INFO - 127.0.0.1 - - [21/Oct/2024 10:45:23] "[32mPOST /users/1/add_movie HTTP/1.1[0m" 302 -
+2024-10-21 10:45:23,941 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:45:23,942 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:45:23,943 - INFO - Found user: Kummey with 2 movies.
+2024-10-21 10:45:23,943 - INFO - Found 2 movies for user ID 1.
+2024-10-21 10:45:23,950 - ERROR - Error fetching movies for user ID 1: 'form' is undefined
+2024-10-21 10:45:23,951 - INFO - 127.0.0.1 - - [21/Oct/2024 10:45:23] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:45:25,861 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:45:25,866 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:45:25,868 - INFO - Found user: Kummey with 2 movies.
+2024-10-21 10:45:25,868 - INFO - Found 2 movies for user ID 1.
+2024-10-21 10:45:25,869 - ERROR - Error fetching movies for user ID 1: 'form' is undefined
+2024-10-21 10:45:25,871 - INFO - 127.0.0.1 - - [21/Oct/2024 10:45:25] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:45:29,710 - INFO - Handling add_movie for user ID 1.
+2024-10-21 10:45:29,712 - INFO - Adding movie with data: Name: Kummey, Director: The Phil, Year: 1986, Rating: 5.0
+2024-10-21 10:45:29,746 - INFO - Movie 'Kummey' added successfully for user ID 1.
+2024-10-21 10:45:29,747 - INFO - Movie 'Kummey' added successfully for user ID 1.
+2024-10-21 10:45:29,747 - INFO - 127.0.0.1 - - [21/Oct/2024 10:45:29] "[32mPOST /users/1/add_movie HTTP/1.1[0m" 302 -
+2024-10-21 10:45:29,771 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:45:29,771 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:45:29,772 - INFO - Found user: Kummey with 3 movies.
+2024-10-21 10:45:29,772 - INFO - Found 3 movies for user ID 1.
+2024-10-21 10:45:29,773 - ERROR - Error fetching movies for user ID 1: 'form' is undefined
+2024-10-21 10:45:29,773 - INFO - 127.0.0.1 - - [21/Oct/2024 10:45:29] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:45:35,099 - INFO - 127.0.0.1 - - [21/Oct/2024 10:45:35] "GET / HTTP/1.1" 200 -
+2024-10-21 10:45:36,952 - INFO - Retrieved 2 users.
+2024-10-21 10:45:36,957 - INFO - 127.0.0.1 - - [21/Oct/2024 10:45:36] "GET /users HTTP/1.1" 200 -
+2024-10-21 10:45:37,802 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:45:37,809 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:45:37,811 - INFO - Found user: Kummey with 3 movies.
+2024-10-21 10:45:37,812 - INFO - Found 3 movies for user ID 1.
+2024-10-21 10:45:37,816 - ERROR - Error fetching movies for user ID 1: 'form' is undefined
+2024-10-21 10:45:37,817 - INFO - 127.0.0.1 - - [21/Oct/2024 10:45:37] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:45:39,884 - INFO - Handling add_movie for user ID 1.
+2024-10-21 10:45:39,889 - INFO - 127.0.0.1 - - [21/Oct/2024 10:45:39] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-21 10:45:51,555 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:45:51,560 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:45:51,561 - INFO - Found user: Kummey with 3 movies.
+2024-10-21 10:45:51,562 - INFO - Found 3 movies for user ID 1.
+2024-10-21 10:45:51,562 - ERROR - Error fetching movies for user ID 1: 'form' is undefined
+2024-10-21 10:45:51,563 - INFO - 127.0.0.1 - - [21/Oct/2024 10:45:51] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:46:45,097 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:46:45,268 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:46:45,272 - INFO - Found user: Kummey with 3 movies.
+2024-10-21 10:46:45,272 - INFO - Found 3 movies for user ID 1.
+2024-10-21 10:46:45,275 - ERROR - Error fetching movies for user ID 1: 'form' is undefined
+2024-10-21 10:46:45,275 - INFO - 127.0.0.1 - - [21/Oct/2024 10:46:45] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:46:47,624 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:46:47,631 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:46:47,632 - INFO - Found user: Kummey with 3 movies.
+2024-10-21 10:46:47,633 - INFO - Found 3 movies for user ID 1.
+2024-10-21 10:46:47,634 - ERROR - Error fetching movies for user ID 1: 'form' is undefined
+2024-10-21 10:46:47,636 - INFO - 127.0.0.1 - - [21/Oct/2024 10:46:47] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:46:48,478 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:46:48,485 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:46:48,487 - INFO - Found user: Kummey with 3 movies.
+2024-10-21 10:46:48,487 - INFO - Found 3 movies for user ID 1.
+2024-10-21 10:46:48,489 - ERROR - Error fetching movies for user ID 1: 'form' is undefined
+2024-10-21 10:46:48,491 - INFO - 127.0.0.1 - - [21/Oct/2024 10:46:48] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:47:00,539 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-21 10:47:00,539 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-21 10:47:03,204 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:47:03,215 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:47:03,218 - INFO - Found user: Kummey with 3 movies.
+2024-10-21 10:47:03,218 - INFO - Found 3 movies for user ID 1.
+2024-10-21 10:47:03,232 - INFO - 127.0.0.1 - - [21/Oct/2024 10:47:03] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:47:03,507 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:47:03,509 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:47:03,509 - INFO - Found user: Kummey with 3 movies.
+2024-10-21 10:47:03,509 - INFO - Found 3 movies for user ID 1.
+2024-10-21 10:47:03,510 - INFO - 127.0.0.1 - - [21/Oct/2024 10:47:03] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:47:05,778 - INFO - Handling delete_movie for movie ID 1.
+2024-10-21 10:47:05,785 - INFO - Movie with ID 1 deleted successfully.
+2024-10-21 10:47:05,786 - INFO - 127.0.0.1 - - [21/Oct/2024 10:47:05] "[32mPOST /users/1/delete_movie/1 HTTP/1.1[0m" 302 -
+2024-10-21 10:47:05,808 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:47:05,809 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:47:05,809 - INFO - Found user: Kummey with 2 movies.
+2024-10-21 10:47:05,809 - INFO - Found 2 movies for user ID 1.
+2024-10-21 10:47:05,809 - INFO - 127.0.0.1 - - [21/Oct/2024 10:47:05] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:47:08,075 - INFO - Handling delete_movie for movie ID 4.
+2024-10-21 10:47:08,090 - INFO - Movie with ID 4 deleted successfully.
+2024-10-21 10:47:08,091 - INFO - 127.0.0.1 - - [21/Oct/2024 10:47:08] "[32mPOST /users/1/delete_movie/4 HTTP/1.1[0m" 302 -
+2024-10-21 10:47:08,114 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:47:08,115 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:47:08,116 - INFO - Found user: Kummey with 1 movies.
+2024-10-21 10:47:08,116 - INFO - Found 1 movies for user ID 1.
+2024-10-21 10:47:08,116 - INFO - 127.0.0.1 - - [21/Oct/2024 10:47:08] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:47:09,036 - INFO - Handling update_movie for movie ID 3.
+2024-10-21 10:47:09,057 - ERROR - Exception on /users/1/update_movie/3 [GET]
+Traceback (most recent call last):
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py", line 163, in update_movie
+    return render_template("update_movie.html", movie=movie, user_id=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/templates/update_movie.html", line 17, in top-level template code
+    {{ form.hidden_tag() }}
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/jinja2/environment.py", line 487, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'form' is undefined
+2024-10-21 10:47:09,066 - ERROR - 500 error: Internal server error.
+2024-10-21 10:47:09,074 - INFO - 127.0.0.1 - - [21/Oct/2024 10:47:09] "[35m[1mGET /users/1/update_movie/3 HTTP/1.1[0m" 500 -
+2024-10-21 10:47:23,290 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-21 10:47:23,291 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-21 10:47:36,832 - INFO - Handling update_movie for movie ID 3.
+2024-10-21 10:47:36,897 - ERROR - Exception on /users/1/update_movie/3 [GET]
+Traceback (most recent call last):
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py", line 163, in update_movie
+    return render_template("update_movie.html", movie=movie, user_id=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/templates/update_movie.html", line 17, in top-level template code
+    {{ form.hidden_tag() }}
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/jinja2/environment.py", line 487, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'form' is undefined
+2024-10-21 10:47:36,907 - ERROR - 500 error: Internal server error.
+2024-10-21 10:47:36,910 - INFO - 127.0.0.1 - - [21/Oct/2024 10:47:36] "[35m[1mGET /users/1/update_movie/3 HTTP/1.1[0m" 500 -
+2024-10-21 10:47:38,967 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:47:38,997 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:47:39,004 - INFO - Found user: Kummey with 1 movies.
+2024-10-21 10:47:39,004 - INFO - Found 1 movies for user ID 1.
+2024-10-21 10:47:39,010 - INFO - 127.0.0.1 - - [21/Oct/2024 10:47:39] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:47:41,099 - INFO - Handling update_movie for movie ID 3.
+2024-10-21 10:47:41,106 - ERROR - Exception on /users/1/update_movie/3 [GET]
+Traceback (most recent call last):
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py", line 163, in update_movie
+    return render_template("update_movie.html", movie=movie, user_id=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/templates/update_movie.html", line 17, in top-level template code
+    {{ form.hidden_tag() }}
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/jinja2/environment.py", line 487, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'form' is undefined
+2024-10-21 10:47:41,110 - ERROR - 500 error: Internal server error.
+2024-10-21 10:47:41,111 - INFO - 127.0.0.1 - - [21/Oct/2024 10:47:41] "[35m[1mGET /users/1/update_movie/3 HTTP/1.1[0m" 500 -
+2024-10-21 10:47:43,188 - INFO - 127.0.0.1 - - [21/Oct/2024 10:47:43] "GET / HTTP/1.1" 200 -
+2024-10-21 10:47:44,411 - INFO - Retrieved 2 users.
+2024-10-21 10:47:44,417 - INFO - 127.0.0.1 - - [21/Oct/2024 10:47:44] "GET /users HTTP/1.1" 200 -
+2024-10-21 10:47:45,519 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:47:45,538 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:47:45,540 - INFO - Found user: Kummey with 1 movies.
+2024-10-21 10:47:45,540 - INFO - Found 1 movies for user ID 1.
+2024-10-21 10:47:45,542 - INFO - 127.0.0.1 - - [21/Oct/2024 10:47:45] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:49:18,207 - INFO - Handling update_movie for movie ID 3.
+2024-10-21 10:49:18,238 - ERROR - Exception on /users/1/update_movie/3 [GET]
+Traceback (most recent call last):
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py", line 163, in update_movie
+    return render_template("update_movie.html", movie=movie, user_id=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/templates/update_movie.html", line 17, in top-level template code
+    {{ form.hidden_tag() }}
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/jinja2/environment.py", line 487, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'form' is undefined
+2024-10-21 10:49:18,241 - ERROR - 500 error: Internal server error.
+2024-10-21 10:49:18,242 - INFO - 127.0.0.1 - - [21/Oct/2024 10:49:18] "[35m[1mGET /users/1/update_movie/3 HTTP/1.1[0m" 500 -
+2024-10-21 10:49:20,946 - INFO - 127.0.0.1 - - [21/Oct/2024 10:49:20] "GET / HTTP/1.1" 200 -
+2024-10-21 10:49:23,452 - INFO - Retrieved 2 users.
+2024-10-21 10:49:23,454 - INFO - 127.0.0.1 - - [21/Oct/2024 10:49:23] "GET /users HTTP/1.1" 200 -
+2024-10-21 10:49:24,681 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:49:24,697 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:49:24,699 - INFO - Found user: Kummey with 1 movies.
+2024-10-21 10:49:24,699 - INFO - Found 1 movies for user ID 1.
+2024-10-21 10:49:24,706 - INFO - 127.0.0.1 - - [21/Oct/2024 10:49:24] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:49:29,515 - INFO - Handling update_movie for movie ID 3.
+2024-10-21 10:49:29,531 - ERROR - Exception on /users/1/update_movie/3 [GET]
+Traceback (most recent call last):
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py", line 163, in update_movie
+    return render_template("update_movie.html", movie=movie, user_id=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/templates/update_movie.html", line 17, in top-level template code
+    {{ form.hidden_tag() }}
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/jinja2/environment.py", line 487, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'form' is undefined
+2024-10-21 10:49:29,534 - ERROR - 500 error: Internal server error.
+2024-10-21 10:49:29,535 - INFO - 127.0.0.1 - - [21/Oct/2024 10:49:29] "[35m[1mGET /users/1/update_movie/3 HTTP/1.1[0m" 500 -
+2024-10-21 10:49:43,909 - INFO - 127.0.0.1 - - [21/Oct/2024 10:49:43] "GET / HTTP/1.1" 200 -
+2024-10-21 10:49:58,611 - INFO - 127.0.0.1 - - [21/Oct/2024 10:49:58] "GET / HTTP/1.1" 200 -
+2024-10-21 10:50:00,437 - INFO - Retrieved 2 users.
+2024-10-21 10:50:00,439 - INFO - 127.0.0.1 - - [21/Oct/2024 10:50:00] "GET /users HTTP/1.1" 200 -
+2024-10-21 10:50:01,923 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:50:01,932 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:50:01,933 - INFO - Found user: Kummey with 1 movies.
+2024-10-21 10:50:01,933 - INFO - Found 1 movies for user ID 1.
+2024-10-21 10:50:01,937 - INFO - 127.0.0.1 - - [21/Oct/2024 10:50:01] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:50:04,007 - INFO - Handling update_movie for movie ID 3.
+2024-10-21 10:50:04,020 - ERROR - Exception on /users/1/update_movie/3 [GET]
+Traceback (most recent call last):
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py", line 163, in update_movie
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/templates/update_movie.html", line 17, in top-level template code
+    {{ form.hidden_tag() }}
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/jinja2/environment.py", line 487, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'form' is undefined
+2024-10-21 10:50:04,029 - ERROR - 500 error: Internal server error.
+2024-10-21 10:50:04,031 - INFO - 127.0.0.1 - - [21/Oct/2024 10:50:04] "[35m[1mGET /users/1/update_movie/3 HTTP/1.1[0m" 500 -
+2024-10-21 10:50:13,151 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:50:13,290 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:50:13,376 - INFO - Found user: Kummey with 1 movies.
+2024-10-21 10:50:13,440 - INFO - Found 1 movies for user ID 1.
+2024-10-21 10:50:13,442 - INFO - 127.0.0.1 - - [21/Oct/2024 10:50:13] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:50:14,820 - INFO - Handling update_movie for movie ID 3.
+2024-10-21 10:50:14,846 - ERROR - Exception on /users/1/update_movie/3 [GET]
+Traceback (most recent call last):
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py", line 163, in update_movie
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/templates/update_movie.html", line 17, in top-level template code
+    {{ form.hidden_tag() }}
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/jinja2/environment.py", line 487, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'form' is undefined
+2024-10-21 10:50:14,847 - ERROR - 500 error: Internal server error.
+2024-10-21 10:50:14,848 - INFO - 127.0.0.1 - - [21/Oct/2024 10:50:14] "[35m[1mGET /users/1/update_movie/3 HTTP/1.1[0m" 500 -
+2024-10-21 10:50:16,286 - INFO - 127.0.0.1 - - [21/Oct/2024 10:50:16] "GET / HTTP/1.1" 200 -
+2024-10-21 10:50:17,721 - INFO - Retrieved 2 users.
+2024-10-21 10:50:17,722 - INFO - 127.0.0.1 - - [21/Oct/2024 10:50:17] "GET /users HTTP/1.1" 200 -
+2024-10-21 10:50:18,771 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:50:18,778 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:50:18,781 - INFO - Found user: Kummey with 1 movies.
+2024-10-21 10:50:18,782 - INFO - Found 1 movies for user ID 1.
+2024-10-21 10:50:18,795 - INFO - 127.0.0.1 - - [21/Oct/2024 10:50:18] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:51:14,480 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-21 10:51:14,480 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-21 10:51:16,553 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:51:16,567 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:51:16,576 - INFO - Found user: Kummey with 1 movies.
+2024-10-21 10:51:16,576 - INFO - Found 1 movies for user ID 1.
+2024-10-21 10:51:16,583 - INFO - 127.0.0.1 - - [21/Oct/2024 10:51:16] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:51:19,402 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:51:19,409 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:51:19,412 - INFO - Found user: Kummey with 1 movies.
+2024-10-21 10:51:19,412 - INFO - Found 1 movies for user ID 1.
+2024-10-21 10:51:19,414 - INFO - 127.0.0.1 - - [21/Oct/2024 10:51:19] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:51:20,970 - INFO - Handling update_movie for movie ID 3.
+2024-10-21 10:51:21,009 - INFO - 127.0.0.1 - - [21/Oct/2024 10:51:21] "GET /users/1/update_movie/3?form=<forms.add_movie_form.AddMovieForm+object+at+0x10555e3f0> HTTP/1.1" 200 -
+2024-10-21 10:51:32,894 - INFO - Handling update_movie for movie ID 3.
+2024-10-21 10:51:32,918 - INFO - Movie ID 3 updated successfully.
+2024-10-21 10:51:32,920 - INFO - 127.0.0.1 - - [21/Oct/2024 10:51:32] "[32mPOST /users/1/update_movie/3?form=<forms.add_movie_form.AddMovieForm+object+at+0x10555e3f0> HTTP/1.1[0m" 302 -
+2024-10-21 10:51:32,944 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:51:32,945 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:51:32,945 - INFO - Found user: Kummey with 1 movies.
+2024-10-21 10:51:32,945 - INFO - Found 1 movies for user ID 1.
+2024-10-21 10:51:32,946 - INFO - 127.0.0.1 - - [21/Oct/2024 10:51:32] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:52:34,473 - INFO - Fetching movies for user ID 1.
+2024-10-21 10:52:34,499 - INFO - Fetching movies for user with ID 1.
+2024-10-21 10:52:34,504 - INFO - Found user: Kummey with 1 movies.
+2024-10-21 10:52:34,504 - INFO - Found 1 movies for user ID 1.
+2024-10-21 10:52:34,506 - INFO - 127.0.0.1 - - [21/Oct/2024 10:52:34] "GET /user/1 HTTP/1.1" 200 -
+2024-10-21 10:52:36,052 - INFO - Handling update_movie for movie ID 3.
+2024-10-21 10:52:36,058 - INFO - 127.0.0.1 - - [21/Oct/2024 10:52:36] "GET /users/1/update_movie/3?form=<forms.add_movie_form.AddMovieForm+object+at+0x1055e1610> HTTP/1.1" 200 -
+2024-10-21 10:52:44,372 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-21 10:52:44,372 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-21 10:52:46,924 - INFO - Handling update_movie for movie ID 3.
+2024-10-21 10:52:46,969 - INFO - 127.0.0.1 - - [21/Oct/2024 10:52:46] "GET /users/1/update_movie/3?form=<forms.add_movie_form.AddMovieForm+object+at+0x1055e1610> HTTP/1.1" 200 -
+2024-10-21 10:52:51,447 - INFO - Handling update_movie for movie ID 3.
+2024-10-21 10:52:51,472 - INFO - 127.0.0.1 - - [21/Oct/2024 10:52:51] "GET /users/1/update_movie/3?form=<forms.add_movie_form.AddMovieForm+object+at+0x1055e1610> HTTP/1.1" 200 -

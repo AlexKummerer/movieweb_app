@@ -84,19 +84,22 @@ def add_user():
 def user_movies(user_id):
     """Route to display a user's movies."""
     logging.info(f"Fetching movies for user ID {user_id}.")
+    form = AddMovieForm()
     try:
         movies = data_manager.get_user_movies(user_id)
         print(movies)
         if movies:
             logging.info(f"Found {len(movies)} movies for user ID {user_id}.")
-            return render_template("movies.html", movies=movies, user_id=user_id)
+            return render_template(
+                "movies.html", movies=movies, user_id=user_id, form=form
+            )
         else:
             logging.warning(f"No movies found for user ID {user_id}.")
-            return render_template("movies.html", movies=[], user_id=user_id)
+            return render_template("movies.html", movies=[], user_id=user_id, form=form)
     except Exception as e:
         print(e)
         logging.error(f"Error fetching movies for user ID {user_id}: {e}")
-        return render_template("movies.html", movies=[], user_id=user_id)
+        return render_template("movies.html", movies=[], user_id=user_id, form=form)
 
 
 @app.route("/users/<int:user_id>/add_movie", methods=["GET", "POST"])
@@ -135,8 +138,10 @@ def add_movie(user_id):
 def update_movie(user_id, movie_id):
     """Route to handle updating an existing movie."""
     logging.info(f"Handling update_movie for movie ID {movie_id}.")
+    form = AddMovieForm()
     try:
         movie = data_manager.get_movie(movie_id)
+        form = AddMovieForm(obj=movie)
         if not movie:
             logging.warning(f"Movie ID {movie_id} not found.")
             return render_template(ERROR_TEMPLATE, message="Movie not found."), 404
@@ -157,20 +162,22 @@ def update_movie(user_id, movie_id):
             logging.error(f"Error updating movie ID {movie_id}: {e}")
             return render_template(ERROR_TEMPLATE, message="Error updating movie."), 500
 
-    return render_template("update_movie.html", movie=movie, user_id=user_id)
+    return render_template("update_movie.html", movie=movie, user_id=user_id, form=form)
 
 
 @app.route("/users/<int:user_id>/delete_movie/<int:movie_id>", methods=["POST"])
 def delete_movie(user_id, movie_id):
-    """Route to handle deleting a movie."""
+    """Route to delete a movie."""
     logging.info(f"Handling delete_movie for movie ID {movie_id}.")
     try:
-        data_manager.delete_movie(movie_id)
-        logging.info(f"Movie ID {movie_id} deleted successfully.")
+        data_manager.delete_movie(
+            movie_id
+        )  # Call your data manager to delete the movie
+        logging.info(f"Movie with ID {movie_id} deleted successfully.")
         return redirect(url_for("user_movies", user_id=user_id))
     except Exception as e:
         logging.error(f"Error deleting movie ID {movie_id}: {e}")
-        return render_template(ERROR_TEMPLATE, message="Error deleting movie."), 500
+        return render_template("error.html", message="Error deleting movie."), 500
 
 
 # ----------- Error Handlers -----------
