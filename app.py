@@ -1,9 +1,18 @@
-from flask import Flask, render_template, request, redirect, url_for
+from flask import (
+    Flask,
+    current_app,
+    jsonify,
+    render_template,
+    request,
+    redirect,
+    url_for,
+)
 from flask_wtf.csrf import CSRFProtect
+import requests
 from forms.add_movie_form import AddMovieForm
 from models.data_manager import SQLiteDataManager as DataManager
 from models import db
-from models.db_models import User
+from models.db_models import Movie, User
 import logging
 from forms.add_user_from import AddUserForm
 
@@ -26,12 +35,40 @@ logging.basicConfig(
 )
 
 app = Flask(__name__)
+app.debug = True
 app.config.from_object("config.Config")
 csrf = CSRFProtect(app)
 
 # Initialize the data manager and the database
 db.init_app(app)
 data_manager = DataManager(app)
+
+
+def fetch_movie_details_from_omdb(title):
+    """Fetch movie details from the OMDb API by movie title."""
+    api_key = current_app.config.get("OMDB_API_KEY")  # Get the API key from the config
+    url = f"http://www.omdbapi.com/?t={title}&plot=full&apikey={api_key}"
+
+    response = requests.get(url)
+
+    if response.status_code == 200:
+        data = response.json()
+
+        if data["Response"] == "True":
+            # Extract the necessary details
+            movie_details = {
+                "name": data.get("Title"),
+                "director": data.get("Director"),
+                "year": data.get("Year"),
+                "rating": data.get("imdbRating"),
+            }
+            return movie_details
+        else:
+            return None  # Movie not found
+    else:
+        raise Exception(
+            f"OMDb API request failed with status code {response.status_code}"
+        )
 
 
 # ----------- Routes -----------
@@ -107,29 +144,31 @@ def add_movie(user_id):
     """Route to handle adding a new movie for a user."""
     logging.info(f"Handling add_movie for user ID {user_id}.")
 
-    form: AddMovieForm = AddMovieForm()  # Create form instance
+    form = AddMovieForm()
 
-    if request.method == "POST" and form.validate_on_submit():
-        try:
-            # Extract data from form
-            name = form.name.data
-            director = form.director.data
-            year = form.year.data
-            rating = form.rating.data
+    if request.method == "POST":
+        # Fetch data from OMDb if the user is submitting the form
+        if form.validate_on_submit():
+            try:
+                # Add the movie to the database
+                new_movie = Movie(
+                    name=form.name.data,
+                    director=form.director.data,
+                    year=form.year.data,
+                    rating=form.rating.data,
+                    user_id=user_id,
+                )
+                db.session.add(new_movie)
+                db.session.commit()
 
-            logging.info(
-                f"Adding movie with data: Name: {name}, Director: {director}, Year: {year}, Rating: {rating}"
-            )
+                logging.info(
+                    f"Movie '{form.name.data}' added successfully for user ID {user_id}."
+                )
+                return redirect(url_for("user_movies", user_id=user_id))
 
-            # Add movie through data_manager
-            data_manager.add_movie(user_id, name, director, year, rating)
-            logging.info(f"Movie '{name}' added successfully for user ID {user_id}.")
-
-            return redirect(url_for("user_movies", user_id=user_id))
-
-        except Exception as e:
-            logging.error(f"Error adding movie for user ID {user_id}: {e}")
-            return render_template(ERROR_TEMPLATE, message="Error adding movie."), 500
+            except Exception as e:
+                logging.error(f"Error adding movie for user ID {user_id}: {e}")
+                return render_template("error.html", message="Error adding movie."), 500
 
     return render_template("add_movie.html", user_id=user_id, form=form)
 
@@ -178,6 +217,66 @@ def delete_movie(user_id, movie_id):
     except Exception as e:
         logging.error(f"Error deleting movie ID {movie_id}: {e}")
         return render_template("error.html", message="Error deleting movie."), 500
+
+
+@app.route("/movie_suggestions", methods=["GET"])
+def movie_suggestions():
+    """AJAX route to get movie suggestions based on partial title."""
+    query = request.args.get("query")
+    api_key = current_app.config.get("OMDB_API_KEY")
+
+    if not query:
+        return jsonify([])  # No query, return an empty list
+
+    url = f"http://www.omdbapi.com/?s={query}&apikey={api_key}"
+    response = requests.get(url)
+
+    if response.status_code == 200:
+        data = response.json()
+        if data.get("Response") == "True":
+            # Extract only titles, years, and imdbIDs from the search results
+            movies = [
+                {
+                    "title": item["Title"],
+                    "year": item["Year"],
+                    "imdbID": item["imdbID"]
+                }
+                for item in data.get("Search", [])
+            ]
+            return jsonify(movies)
+        else:
+            return jsonify([])  # No matches found
+    else:
+        return jsonify([]), 500  # Internal server error if the request fails
+
+@app.route("/movie_details", methods=["GET"])
+def movie_details():
+    """AJAX route to get full movie details based on imdbID."""
+    imdb_id = request.args.get("imdbID")
+    api_key = current_app.config.get("OMDB_API_KEY")
+    
+    if not imdb_id:
+        return jsonify({})  # No imdbID, return an empty object
+
+    url = f"http://www.omdbapi.com/?i={imdb_id}&plot=full&apikey={api_key}"
+    response = requests.get(url)
+
+    if response.status_code == 200:
+        data = response.json()
+        print(data)
+        if data.get("Response") == "True":
+            # Extract the necessary details
+            movie_details = {
+                'title': data.get('Title', "N/A"),
+                'director': data.get('Director', "N/A"),
+                'year': data.get('Year', "N/A"),
+                'rating': data.get('imdbRating', "N/A")
+            }
+            return jsonify(movie_details)
+        else:
+            return jsonify({})  # Movie not found
+    else:
+        return jsonify({}), 500  # Internal server error if the request fails
 
 
 # ----------- Error Handlers -----------

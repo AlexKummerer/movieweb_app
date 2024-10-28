@@ -1,45 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  />
-  <title>Add Movie - MovieWeb App</title>
-</head>
-<body>
-  <div class="container mt-5">
-    <h1 class="text-center">Add a New Movie</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <title>Add Movie - MovieWeb App</title>
 
-    <form method="POST" class="mt-4">
-      {{ form.hidden_tag() }}
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const titleInput = document.getElementById("title");
+            const suggestionsDropdown = document.getElementById("suggestions-dropdown");
+            let timeout;
+        
+            // Debounce function
+            function debounce(func, delay) {
+                clearTimeout(timeout);
+                timeout = setTimeout(func, delay);
+            }
+        
+            // Fetch suggestions with debounce
+            titleInput.addEventListener("input", function() {
+                debounce(() => {
+                    const query = titleInput.value;
+                    if (query.length >= 3) {
+                        fetchSuggestions(query);
+                    } else {
+                        suggestionsDropdown.style.display = "none";
+                    }
+                }, 300);  // 300 ms delay
+            });
+        
+            // Fetch suggestions from server
+            function fetchSuggestions(query) {
+                fetch(`/movie_suggestions?query=${query}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        suggestionsDropdown.innerHTML = "";
+                        data.slice(0, 5).forEach(movie => {  // Limit to top 5 results
+                            const suggestionItem = document.createElement("div");
+                            suggestionItem.classList.add("dropdown-item");
+                            suggestionItem.textContent = `${movie.title} (${movie.year})`;
+        
+                            // Preload details on suggestion selection
+                            suggestionItem.addEventListener("click", function() {
+                                fetch(`/movie_details?imdbID=${movie.imdbID}`)
+                                    .then(response => response.json())
+                                    .then(details => {
+                                        titleInput.value = details.title;
+                                        document.getElementById("director").value = details.director;
+                                        document.getElementById("year").value = details.year;
+                                        document.getElementById("rating").value = details.rating;
+                                        suggestionsDropdown.innerHTML = "";
+                                    });
+                            });
+                            suggestionsDropdown.appendChild(suggestionItem);
+                        });
+                        suggestionsDropdown.style.display = data.length ? "block" : "none";
+                    });
+            }
+        
+            // Hide suggestions if clicking outside
+            document.addEventListener("click", function(event) {
+                if (!titleInput.contains(event.target) && !suggestionsDropdown.contains(event.target)) {
+                    suggestionsDropdown.style.display = "none";
+                }
+            });
+        });
+        
+    </script>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center">Add a New Movie</h1>
 
-      <div class="mb-3">
-        <label for="name">{{ form.name.label }}</label>
-        {{ form.name(class_="form-control", placeholder="Enter movie name") }}
-      </div>
+      <form method="POST" class="mt-4">
+        {{ form.hidden_tag() }}
 
-      <div class="mb-3">
-        <label for="director">{{ form.director.label }}</label>
-        {{ form.director(class_="form-control", placeholder="Enter director name") }}
-      </div>
+        <!-- Title Input with Suggestions Dropdown -->
+        <div class="mb-3 position-relative">
+          <label for="title">{{ form.name.label }}</label>
+          {{ form.name(class_="form-control", id="title", placeholder="Enter
+          movie title") }}
 
-      <div class="mb-3">
-        <label for="year">{{ form.year.label }}</label>
-        {{ form.year(class_="form-control", placeholder="Enter release year") }}
-      </div>
+          <!-- Suggestions Dropdown -->
+          <div
+            id="suggestions-dropdown"
+            class="dropdown-menu"
+            style="display: none; position: absolute; top: 100%; width: 100%"
+          ></div>
+        </div>
 
-      <div class="mb-3">
-        <label for="rating">{{ form.rating.label }}</label>
-        {{ form.rating(class_="form-control", step="0.1", placeholder="Enter rating (0-10)") }}
-      </div>
+        <div class="mb-3">
+          <label for="director">{{ form.director.label }}</label>
+          {{ form.director(class_="form-control", placeholder="Enter director
+          name") }}
+        </div>
 
-      <button type="submit" class="btn btn-primary">Add Movie</button>
-    </form>
+        <div class="mb-3">
+          <label for="year">{{ form.year.label }}</label>
+          {{ form.year(class_="form-control", placeholder="Enter release year")
+          }}
+        </div>
 
-    <a class="btn btn-secondary mt-3" href="{{ url_for('user_movies', user_id=user_id) }}">Back to Movie List</a>
-  </div>
-</body>
+        <div class="mb-3">
+          <label for="rating">{{ form.rating.label }}</label>
+          {{ form.rating(class_="form-control", step="0.1", placeholder="Enter
+          rating (0-10)") }}
+        </div>
+
+        <button type="submit" class="btn btn-primary">Add Movie</button>
+      </form>
+
+      <a
+        class="btn btn-secondary mt-3"
+        href="{{ url_for('user_movies', user_id=user_id) }}"
+        >Back to Movie List</a
+      >
+    </div>
+  </body>
 </html>

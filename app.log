@@ -1511,3 +1511,383 @@ jinja2.exceptions.UndefinedError: 'form' is undefined
 2024-10-21 10:52:46,969 - INFO - 127.0.0.1 - - [21/Oct/2024 10:52:46] "GET /users/1/update_movie/3?form=<forms.add_movie_form.AddMovieForm+object+at+0x1055e1610> HTTP/1.1" 200 -
 2024-10-21 10:52:51,447 - INFO - Handling update_movie for movie ID 3.
 2024-10-21 10:52:51,472 - INFO - 127.0.0.1 - - [21/Oct/2024 10:52:51] "GET /users/1/update_movie/3?form=<forms.add_movie_form.AddMovieForm+object+at+0x1055e1610> HTTP/1.1" 200 -
+2024-10-28 09:07:34,293 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-28 09:07:34,295 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-28 09:07:52,291 - INFO - 127.0.0.1 - - [28/Oct/2024 09:07:52] "GET / HTTP/1.1" 200 -
+2024-10-28 09:08:07,782 - ERROR - 404 error: Page not found.
+2024-10-28 09:08:07,955 - INFO - 127.0.0.1 - - [28/Oct/2024 09:08:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-28 09:08:14,231 - INFO - Retrieved 2 users.
+2024-10-28 09:08:14,283 - INFO - 127.0.0.1 - - [28/Oct/2024 09:08:14] "GET /users HTTP/1.1" 200 -
+2024-10-28 09:08:17,973 - INFO - Fetching movies for user ID 1.
+2024-10-28 09:08:18,076 - INFO - Fetching movies for user with ID 1.
+2024-10-28 09:08:18,087 - INFO - Found user: Kummey with 1 movies.
+2024-10-28 09:08:18,087 - INFO - Found 1 movies for user ID 1.
+2024-10-28 09:08:18,122 - INFO - 127.0.0.1 - - [28/Oct/2024 09:08:18] "GET /user/1 HTTP/1.1" 200 -
+2024-10-28 09:08:20,685 - INFO - Handling add_movie for user ID 1.
+2024-10-28 09:08:20,712 - INFO - 127.0.0.1 - - [28/Oct/2024 09:08:20] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-28 09:09:46,058 - INFO - Handling add_movie for user ID 1.
+2024-10-28 09:09:46,959 - INFO - Movie 'Harry Potter and the Deathly Hallows: Part 2' added successfully for user ID 1.
+2024-10-28 09:09:46,963 - INFO - 127.0.0.1 - - [28/Oct/2024 09:09:46] "[32mPOST /users/1/add_movie HTTP/1.1[0m" 302 -
+2024-10-28 09:09:47,001 - INFO - Fetching movies for user ID 1.
+2024-10-28 09:09:47,030 - INFO - Fetching movies for user with ID 1.
+2024-10-28 09:09:47,035 - INFO - Found user: Kummey with 2 movies.
+2024-10-28 09:09:47,035 - INFO - Found 2 movies for user ID 1.
+2024-10-28 09:09:47,049 - INFO - 127.0.0.1 - - [28/Oct/2024 09:09:47] "GET /user/1 HTTP/1.1" 200 -
+2024-10-28 10:49:34,134 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-28 10:49:34,134 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-28 10:49:37,272 - INFO - Fetching movies for user ID 1.
+2024-10-28 10:49:37,280 - INFO - Fetching movies for user with ID 1.
+2024-10-28 10:49:37,281 - INFO - Found user: Kummey with 2 movies.
+2024-10-28 10:49:37,281 - INFO - Found 2 movies for user ID 1.
+2024-10-28 10:49:37,286 - INFO - 127.0.0.1 - - [28/Oct/2024 10:49:37] "GET /user/1 HTTP/1.1" 200 -
+2024-10-28 10:49:38,479 - INFO - Handling add_movie for user ID 1.
+2024-10-28 10:49:38,484 - INFO - 127.0.0.1 - - [28/Oct/2024 10:49:38] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-28 10:49:40,904 - INFO - 127.0.0.1 - - [28/Oct/2024 10:49:40] "GET /movie_suggestions?query=Kummey HTTP/1.1" 200 -
+2024-10-28 10:49:46,985 - INFO - 127.0.0.1 - - [28/Oct/2024 10:49:46] "GET /movie_suggestions?query=Har HTTP/1.1" 200 -
+2024-10-28 10:49:47,145 - INFO - 127.0.0.1 - - [28/Oct/2024 10:49:47] "GET /movie_suggestions?query=Harr HTTP/1.1" 200 -
+2024-10-28 10:49:47,454 - INFO - 127.0.0.1 - - [28/Oct/2024 10:49:47] "GET /movie_suggestions?query=Harra HTTP/1.1" 200 -
+2024-10-28 10:49:47,728 - INFO - 127.0.0.1 - - [28/Oct/2024 10:49:47] "GET /movie_suggestions?query=Harray HTTP/1.1" 200 -
+2024-10-28 10:49:48,276 - INFO - 127.0.0.1 - - [28/Oct/2024 10:49:48] "GET /movie_suggestions?query=Harra HTTP/1.1" 200 -
+2024-10-28 10:49:48,454 - INFO - 127.0.0.1 - - [28/Oct/2024 10:49:48] "GET /movie_suggestions?query=Harr HTTP/1.1" 200 -
+2024-10-28 10:49:49,045 - INFO - 127.0.0.1 - - [28/Oct/2024 10:49:49] "GET /movie_suggestions?query=Harry HTTP/1.1" 200 -
+2024-10-28 10:52:14,941 - INFO - Handling add_movie for user ID 1.
+2024-10-28 10:52:15,267 - INFO - 127.0.0.1 - - [28/Oct/2024 10:52:15] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-28 10:52:26,283 - INFO - Handling add_movie for user ID 1.
+2024-10-28 10:52:26,302 - INFO - 127.0.0.1 - - [28/Oct/2024 10:52:26] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-28 10:52:30,605 - INFO - 127.0.0.1 - - [28/Oct/2024 10:52:30] "GET /movie_suggestions?query=Blogs HTTP/1.1" 200 -
+2024-10-28 10:52:31,415 - INFO - 127.0.0.1 - - [28/Oct/2024 10:52:31] "GET /movie_suggestions?query=Blog HTTP/1.1" 200 -
+2024-10-28 10:52:38,168 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-28 10:52:38,168 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-28 10:52:39,982 - INFO - Handling add_movie for user ID 1.
+2024-10-28 10:52:39,992 - INFO - 127.0.0.1 - - [28/Oct/2024 10:52:39] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-28 10:52:42,802 - INFO - 127.0.0.1 - - [28/Oct/2024 10:52:42] "GET /movie_suggestions?query=Alexander%20Kummerer HTTP/1.1" 200 -
+2024-10-28 10:52:44,444 - INFO - 127.0.0.1 - - [28/Oct/2024 10:52:44] "GET /movie_suggestions?query=Alexander HTTP/1.1" 200 -
+2024-10-28 10:52:45,658 - INFO - 127.0.0.1 - - [28/Oct/2024 10:52:45] "GET /movie_suggestions?query=Alexande HTTP/1.1" 200 -
+2024-10-28 10:52:47,089 - INFO - 127.0.0.1 - - [28/Oct/2024 10:52:47] "GET /movie_suggestions?query=Alexander HTTP/1.1" 200 -
+2024-10-28 10:52:50,736 - INFO - 127.0.0.1 - - [28/Oct/2024 10:52:50] "GET /movie_suggestions?query=Alexander%20Kummerer HTTP/1.1" 200 -
+2024-10-28 10:53:21,110 - INFO - Handling add_movie for user ID 1.
+2024-10-28 10:53:21,415 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:21] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-28 10:53:23,165 - INFO - Handling add_movie for user ID 1.
+2024-10-28 10:53:23,167 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:23] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-28 10:53:25,569 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:25] "GET /movie_suggestions?query=Stepstone HTTP/1.1" 200 -
+2024-10-28 10:53:26,329 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:26] "GET /movie_suggestions?query=Stepston HTTP/1.1" 200 -
+2024-10-28 10:53:26,739 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:26] "GET /movie_suggestions?query=Stepsto HTTP/1.1" 200 -
+2024-10-28 10:53:26,911 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:26] "GET /movie_suggestions?query=Stepst HTTP/1.1" 200 -
+2024-10-28 10:53:27,053 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:27] "GET /movie_suggestions?query=Steps HTTP/1.1" 200 -
+2024-10-28 10:53:27,678 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:27] "GET /movie_suggestions?query=Step HTTP/1.1" 200 -
+2024-10-28 10:53:28,542 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:28] "GET /movie_suggestions?query=Stepstone HTTP/1.1" 200 -
+2024-10-28 10:53:33,131 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-28 10:53:33,131 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-28 10:53:34,733 - INFO - Handling add_movie for user ID 1.
+2024-10-28 10:53:34,767 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:34] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-28 10:53:36,624 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:36] "GET /movie_suggestions?query=Stepstone HTTP/1.1" 200 -
+2024-10-28 10:53:37,279 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:37] "GET /movie_suggestions?query=Stepston HTTP/1.1" 200 -
+2024-10-28 10:53:37,441 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:37] "GET /movie_suggestions?query=Stepsto HTTP/1.1" 200 -
+2024-10-28 10:53:37,644 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:37] "GET /movie_suggestions?query=Stepst HTTP/1.1" 200 -
+2024-10-28 10:53:37,975 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:37] "GET /movie_suggestions?query=Steps HTTP/1.1" 200 -
+2024-10-28 10:53:38,276 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:38] "GET /movie_suggestions?query=Step HTTP/1.1" 200 -
+2024-10-28 10:53:45,450 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:45] "GET /movie_suggestions?query=Her HTTP/1.1" 200 -
+2024-10-28 10:53:45,660 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:45] "GET /movie_suggestions?query=Herr HTTP/1.1" 200 -
+2024-10-28 10:53:46,393 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:46] "GET /movie_suggestions?query=Herr HTTP/1.1" 200 -
+2024-10-28 10:53:47,126 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:47] "GET /movie_suggestions?query=Herr%20d HTTP/1.1" 200 -
+2024-10-28 10:53:47,211 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:47] "GET /movie_suggestions?query=Herr%20de HTTP/1.1" 200 -
+2024-10-28 10:53:47,397 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:47] "GET /movie_suggestions?query=Herr%20der HTTP/1.1" 200 -
+2024-10-28 10:53:47,824 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:47] "GET /movie_suggestions?query=Herr%20de HTTP/1.1" 200 -
+2024-10-28 10:53:48,299 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:48] "GET /movie_suggestions?query=Herr%20d HTTP/1.1" 200 -
+2024-10-28 10:53:48,390 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:48] "GET /movie_suggestions?query=Herr HTTP/1.1" 200 -
+2024-10-28 10:53:48,474 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:48] "GET /movie_suggestions?query=Herr HTTP/1.1" 200 -
+2024-10-28 10:53:48,552 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:48] "GET /movie_suggestions?query=Her HTTP/1.1" 200 -
+2024-10-28 10:53:49,830 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:49] "GET /movie_suggestions?query=Lor HTTP/1.1" 200 -
+2024-10-28 10:53:50,116 - INFO - 127.0.0.1 - - [28/Oct/2024 10:53:50] "GET /movie_suggestions?query=Lord HTTP/1.1" 200 -
+2024-10-28 10:54:01,350 - INFO - 127.0.0.1 - - [28/Oct/2024 10:54:01] "GET /movie_suggestions?query=The HTTP/1.1" 200 -
+2024-10-28 10:54:01,928 - INFO - 127.0.0.1 - - [28/Oct/2024 10:54:01] "GET /movie_suggestions?query=The HTTP/1.1" 200 -
+2024-10-28 10:54:02,535 - INFO - 127.0.0.1 - - [28/Oct/2024 10:54:02] "GET /movie_suggestions?query=The%20L HTTP/1.1" 200 -
+2024-10-28 10:54:02,654 - INFO - 127.0.0.1 - - [28/Oct/2024 10:54:02] "GET /movie_suggestions?query=The%20Lo HTTP/1.1" 200 -
+2024-10-28 10:56:13,987 - INFO - 127.0.0.1 - - [28/Oct/2024 10:56:13] "GET /movie_suggestions?query=Lo%20and%20Behold:%20Reveries%20of%20the%20Connected%20Worl HTTP/1.1" 200 -
+2024-10-28 10:56:14,469 - INFO - 127.0.0.1 - - [28/Oct/2024 10:56:14] "GET /movie_suggestions?query=Lo%20and%20Behold:%20Reveries%20of%20the%20Connected%20Wor HTTP/1.1" 200 -
+2024-10-28 10:56:14,797 - INFO - 127.0.0.1 - - [28/Oct/2024 10:56:14] "GET /movie_suggestions?query=Lo%20and%20Behold:%20Reveries%20of%20the%20Connected%20Wo HTTP/1.1" 200 -
+2024-10-28 10:56:14,842 - INFO - 127.0.0.1 - - [28/Oct/2024 10:56:14] "GET /movie_suggestions?query=Lo%20and%20Behold:%20Reveries%20of%20the%20Connected%20W HTTP/1.1" 200 -
+2024-10-28 10:56:15,034 - INFO - 127.0.0.1 - - [28/Oct/2024 10:56:15] "GET /movie_suggestions?query=Lo%20and%20Behold:%20Reveries%20of%20the%20Connected HTTP/1.1" 200 -
+2024-10-28 10:56:22,159 - INFO - Handling add_movie for user ID 1.
+2024-10-28 10:56:22,178 - INFO - 127.0.0.1 - - [28/Oct/2024 10:56:22] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-28 10:56:24,491 - INFO - 127.0.0.1 - - [28/Oct/2024 10:56:24] "GET /movie_suggestions?query=Blogs HTTP/1.1" 200 -
+2024-10-28 10:56:43,696 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-28 10:56:43,696 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-28 10:56:45,878 - INFO - Handling add_movie for user ID 1.
+2024-10-28 10:56:45,916 - INFO - 127.0.0.1 - - [28/Oct/2024 10:56:45] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-28 10:56:49,717 - INFO - Handling add_movie for user ID 1.
+2024-10-28 10:56:49,719 - INFO - 127.0.0.1 - - [28/Oct/2024 10:56:49] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-28 10:56:51,581 - ERROR - Exception on /movie_suggestions [GET]
+Traceback (most recent call last):
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py", line 244, in movie_suggestions
+    movies = [{"title": item["Title"], "year": item["Year"], "director" : item["Director"], "rating": item["rating"] } for item in data.get("Search", [])]
+                                                                          ~~~~^^^^^^^^^^^^
+KeyError: 'Director'
+2024-10-28 10:56:51,587 - ERROR - 500 error: Internal server error.
+2024-10-28 10:56:51,589 - INFO - 127.0.0.1 - - [28/Oct/2024 10:56:51] "[35m[1mGET /movie_suggestions?query=Blogs HTTP/1.1[0m" 500 -
+2024-10-28 10:56:53,850 - ERROR - Exception on /movie_suggestions [GET]
+Traceback (most recent call last):
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py", line 244, in movie_suggestions
+    movies = [{"title": item["Title"], "year": item["Year"], "director" : item["Director"], "rating": item["rating"] } for item in data.get("Search", [])]
+                                                                          ~~~~^^^^^^^^^^^^
+KeyError: 'Director'
+2024-10-28 10:56:53,850 - ERROR - 500 error: Internal server error.
+2024-10-28 10:56:53,851 - INFO - 127.0.0.1 - - [28/Oct/2024 10:56:53] "[35m[1mGET /movie_suggestions?query=Blog HTTP/1.1[0m" 500 -
+2024-10-28 10:56:55,577 - ERROR - Exception on /movie_suggestions [GET]
+Traceback (most recent call last):
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py", line 244, in movie_suggestions
+    movies = [{"title": item["Title"], "year": item["Year"], "director" : item["Director"], "rating": item["rating"] } for item in data.get("Search", [])]
+                                                                          ~~~~^^^^^^^^^^^^
+KeyError: 'Director'
+2024-10-28 10:56:55,578 - ERROR - 500 error: Internal server error.
+2024-10-28 10:56:55,578 - INFO - 127.0.0.1 - - [28/Oct/2024 10:56:55] "[35m[1mGET /movie_suggestions?query=Blogs HTTP/1.1[0m" 500 -
+2024-10-28 11:01:14,732 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-28 11:01:14,732 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-28 11:01:22,159 - INFO - Handling add_movie for user ID 1.
+2024-10-28 11:01:22,165 - INFO - 127.0.0.1 - - [28/Oct/2024 11:01:22] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-28 11:01:24,059 - ERROR - Exception on /movie_suggestions [GET]
+Traceback (most recent call last):
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py", line 242, in movie_suggestions
+    "director": item["Director"],
+                ~~~~^^^^^^^^^^^^
+KeyError: 'Director'
+2024-10-28 11:01:24,061 - ERROR - 500 error: Internal server error.
+2024-10-28 11:01:24,063 - INFO - 127.0.0.1 - - [28/Oct/2024 11:01:24] "[35m[1mGET /movie_suggestions?query=Blogs HTTP/1.1[0m" 500 -
+2024-10-28 11:03:22,291 - ERROR - Exception on /movie_suggestions [GET]
+Traceback (most recent call last):
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py", line 242, in movie_suggestions
+    "director": item["Director"],
+                ~~~~^^^^^^^^^^^^
+KeyError: 'Director'
+2024-10-28 11:03:22,299 - ERROR - 500 error: Internal server error.
+2024-10-28 11:03:22,303 - INFO - 127.0.0.1 - - [28/Oct/2024 11:03:22] "[35m[1mGET /movie_suggestions?query=Blog HTTP/1.1[0m" 500 -
+2024-10-28 11:03:24,070 - ERROR - Exception on /movie_suggestions [GET]
+Traceback (most recent call last):
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py", line 242, in movie_suggestions
+    "director": item["Director"],
+                ~~~~^^^^^^^^^^^^
+KeyError: 'Director'
+2024-10-28 11:03:24,070 - ERROR - 500 error: Internal server error.
+2024-10-28 11:03:24,071 - INFO - 127.0.0.1 - - [28/Oct/2024 11:03:24] "[35m[1mGET /movie_suggestions?query=Blog HTTP/1.1[0m" 500 -
+2024-10-28 11:03:25,871 - INFO - Handling add_movie for user ID 1.
+2024-10-28 11:03:25,873 - INFO - 127.0.0.1 - - [28/Oct/2024 11:03:25] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-28 11:03:30,456 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-28 11:03:30,456 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-28 11:03:33,818 - ERROR - Exception on /movie_suggestions [GET]
+Traceback (most recent call last):
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py", line 242, in movie_suggestions
+    "director": item["Director"],
+                ~~~~^^^^^^^^^^^^
+KeyError: 'Director'
+2024-10-28 11:03:33,860 - ERROR - 500 error: Internal server error.
+2024-10-28 11:03:33,865 - INFO - 127.0.0.1 - - [28/Oct/2024 11:03:33] "[35m[1mGET /movie_suggestions?query=Blogs HTTP/1.1[0m" 500 -
+2024-10-28 11:04:17,194 - INFO - Handling add_movie for user ID 1.
+2024-10-28 11:04:17,247 - INFO - 127.0.0.1 - - [28/Oct/2024 11:04:17] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-28 11:04:19,706 - ERROR - Exception on /movie_suggestions [GET]
+Traceback (most recent call last):
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alexkummerer/Desktop/Projekte/Masterschool/movieweb_app/app.py", line 242, in movie_suggestions
+    "director": item["Director"] if item.get("Director") else "N/A",
+               ~~~~^^^^^^^^^^^^
+KeyError: 'Director'
+2024-10-28 11:04:19,707 - ERROR - 500 error: Internal server error.
+2024-10-28 11:04:19,707 - INFO - 127.0.0.1 - - [28/Oct/2024 11:04:19] "[35m[1mGET /movie_suggestions?query=Blogs HTTP/1.1[0m" 500 -
+2024-10-28 11:08:06,032 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-28 11:08:06,032 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-28 11:09:04,652 - INFO - Handling add_movie for user ID 1.
+2024-10-28 11:09:04,686 - INFO - 127.0.0.1 - - [28/Oct/2024 11:09:04] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-28 11:09:07,196 - INFO - 127.0.0.1 - - [28/Oct/2024 11:09:07] "GET /movie_suggestions?query=Blogs HTTP/1.1" 200 -
+2024-10-28 11:09:12,260 - INFO - 127.0.0.1 - - [28/Oct/2024 11:09:12] "GET /movie_suggestions?query=Blogs HTTP/1.1" 200 -
+2024-10-28 11:09:50,420 - INFO - 127.0.0.1 - - [28/Oct/2024 11:09:50] "GET /movie_details?imdbID=tt1851730 HTTP/1.1" 200 -
+2024-10-28 11:09:50,420 - INFO - 127.0.0.1 - - [28/Oct/2024 11:09:50] "GET /movie_details?imdbID=tt1851730 HTTP/1.1" 200 -
+2024-10-28 11:09:50,421 - INFO - 127.0.0.1 - - [28/Oct/2024 11:09:50] "GET /movie_details?imdbID=tt1851730 HTTP/1.1" 200 -
+2024-10-28 11:09:50,421 - INFO - 127.0.0.1 - - [28/Oct/2024 11:09:50] "GET /movie_details?imdbID=tt1851730 HTTP/1.1" 200 -
+2024-10-28 11:09:50,421 - INFO - 127.0.0.1 - - [28/Oct/2024 11:09:50] "GET /movie_details?imdbID=tt1851730 HTTP/1.1" 200 -
+2024-10-28 11:09:50,429 - INFO - Handling add_movie for user ID 1.
+2024-10-28 11:09:50,445 - INFO - 127.0.0.1 - - [28/Oct/2024 11:09:50] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-28 11:09:50,535 - INFO - 127.0.0.1 - - [28/Oct/2024 11:09:50] "GET /movie_details?imdbID=tt1851730 HTTP/1.1" 200 -
+2024-10-28 11:09:50,537 - INFO - 127.0.0.1 - - [28/Oct/2024 11:09:50] "GET /movie_suggestions?query=Blogs HTTP/1.1" 200 -
+2024-10-28 11:09:50,542 - INFO - 127.0.0.1 - - [28/Oct/2024 11:09:50] "GET /movie_details?imdbID=tt1851730 HTTP/1.1" 200 -
+2024-10-28 11:09:50,547 - INFO - 127.0.0.1 - - [28/Oct/2024 11:09:50] "GET /movie_details?imdbID=tt1851730 HTTP/1.1" 200 -
+2024-10-28 11:09:50,571 - INFO - 127.0.0.1 - - [28/Oct/2024 11:09:50] "GET /movie_suggestions?query=Blog HTTP/1.1" 200 -
+2024-10-28 11:09:52,733 - INFO - 127.0.0.1 - - [28/Oct/2024 11:09:52] "GET /movie_details?imdbID=tt15145364 HTTP/1.1" 200 -
+2024-10-28 11:09:53,969 - INFO - 127.0.0.1 - - [28/Oct/2024 11:09:53] "GET /movie_suggestions?query=Blogs HTTP/1.1" 200 -
+2024-10-28 11:09:55,058 - INFO - 127.0.0.1 - - [28/Oct/2024 11:09:55] "GET /movie_details?imdbID=tt1851730 HTTP/1.1" 200 -
+2024-10-28 11:10:33,146 - INFO - 127.0.0.1 - - [28/Oct/2024 11:10:33] "GET /movie_details?imdbID=tt1851730 HTTP/1.1" 200 -
+2024-10-28 11:10:42,062 - INFO - Handling add_movie for user ID 1.
+2024-10-28 11:10:42,098 - INFO - 127.0.0.1 - - [28/Oct/2024 11:10:42] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-28 11:11:12,856 - INFO - Handling add_movie for user ID 1.
+2024-10-28 11:11:12,892 - INFO - 127.0.0.1 - - [28/Oct/2024 11:11:12] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-28 11:11:15,933 - INFO - 127.0.0.1 - - [28/Oct/2024 11:11:15] "GET /movie_suggestions?query=Blogs HTTP/1.1" 200 -
+2024-10-28 11:11:16,960 - INFO - 127.0.0.1 - - [28/Oct/2024 11:11:16] "GET /movie_details?imdbID=tt1851730 HTTP/1.1" 200 -
+2024-10-28 11:11:36,142 - INFO - Handling add_movie for user ID 1.
+2024-10-28 11:11:36,160 - INFO - 127.0.0.1 - - [28/Oct/2024 11:11:36] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-28 11:11:37,742 - INFO - Handling add_movie for user ID 1.
+2024-10-28 11:11:37,744 - INFO - 127.0.0.1 - - [28/Oct/2024 11:11:37] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-28 11:11:38,640 - INFO - Handling add_movie for user ID 1.
+2024-10-28 11:11:38,643 - INFO - 127.0.0.1 - - [28/Oct/2024 11:11:38] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-28 11:11:41,884 - INFO - 127.0.0.1 - - [28/Oct/2024 11:11:41] "GET /movie_suggestions?query=Blogs HTTP/1.1" 200 -
+2024-10-28 11:11:43,911 - INFO - 127.0.0.1 - - [28/Oct/2024 11:11:43] "GET /movie_details?imdbID=tt15145364 HTTP/1.1" 200 -
+2024-10-28 11:11:51,398 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-28 11:11:51,398 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-28 11:11:55,262 - INFO - Handling add_movie for user ID 1.
+2024-10-28 11:11:55,322 - INFO - 127.0.0.1 - - [28/Oct/2024 11:11:55] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-28 11:11:59,265 - INFO - 127.0.0.1 - - [28/Oct/2024 11:11:59] "GET /movie_suggestions?query=Blogs HTTP/1.1" 200 -
+2024-10-28 11:12:28,585 - INFO - 127.0.0.1 - - [28/Oct/2024 11:12:28] "GET /movie_details?imdbID=tt15145364 HTTP/1.1" 200 -
+2024-10-28 11:12:28,668 - INFO - 127.0.0.1 - - [28/Oct/2024 11:12:28] "GET /movie_details?imdbID=tt15145364 HTTP/1.1" 200 -
+2024-10-28 11:12:43,682 - INFO - 127.0.0.1 - - [28/Oct/2024 11:12:43] "GET /movie_details?imdbID=tt1851730 HTTP/1.1" 200 -
+2024-10-28 11:12:43,682 - INFO - 127.0.0.1 - - [28/Oct/2024 11:12:43] "GET /movie_details?imdbID=tt1851730 HTTP/1.1" 200 -
+2024-10-28 11:12:46,651 - INFO - 127.0.0.1 - - [28/Oct/2024 11:12:46] "GET /movie_details?imdbID=tt15145364 HTTP/1.1" 200 -
+2024-10-28 11:12:46,652 - INFO - 127.0.0.1 - - [28/Oct/2024 11:12:46] "GET /movie_details?imdbID=tt15145364 HTTP/1.1" 200 -
+2024-10-28 11:12:46,653 - INFO - 127.0.0.1 - - [28/Oct/2024 11:12:46] "GET /movie_details?imdbID=tt15145364 HTTP/1.1" 200 -
+2024-10-28 11:12:46,663 - INFO - 127.0.0.1 - - [28/Oct/2024 11:12:46] "GET /movie_details?imdbID=tt15145364 HTTP/1.1" 200 -
+2024-10-28 11:13:01,327 - INFO - 127.0.0.1 - - [28/Oct/2024 11:13:01] "GET /movie_suggestions?query=Har HTTP/1.1" 200 -
+2024-10-28 11:13:03,030 - INFO - 127.0.0.1 - - [28/Oct/2024 11:13:03] "GET /movie_suggestions?query=Hary HTTP/1.1" 200 -
+2024-10-28 11:13:04,020 - INFO - 127.0.0.1 - - [28/Oct/2024 11:13:04] "GET /movie_suggestions?query=Har HTTP/1.1" 200 -
+2024-10-28 11:13:04,210 - INFO - 127.0.0.1 - - [28/Oct/2024 11:13:04] "GET /movie_suggestions?query=Harr HTTP/1.1" 200 -
+2024-10-28 11:13:04,483 - INFO - 127.0.0.1 - - [28/Oct/2024 11:13:04] "GET /movie_suggestions?query=Harry HTTP/1.1" 200 -
+2024-10-28 11:13:05,788 - INFO - 127.0.0.1 - - [28/Oct/2024 11:13:05] "GET /movie_details?imdbID=tt1201607 HTTP/1.1" 200 -
+2024-10-28 11:13:08,373 - INFO - Handling add_movie for user ID 1.
+2024-10-28 11:13:08,427 - INFO - Movie 'Harry Potter and the Deathly Hallows: Part 2' added successfully for user ID 1.
+2024-10-28 11:13:08,429 - INFO - 127.0.0.1 - - [28/Oct/2024 11:13:08] "[32mPOST /users/1/add_movie HTTP/1.1[0m" 302 -
+2024-10-28 11:13:08,440 - INFO - Fetching movies for user ID 1.
+2024-10-28 11:13:08,449 - INFO - Fetching movies for user with ID 1.
+2024-10-28 11:13:08,454 - INFO - Found user: Kummey with 3 movies.
+2024-10-28 11:13:08,454 - INFO - Found 3 movies for user ID 1.
+2024-10-28 11:13:08,458 - INFO - 127.0.0.1 - - [28/Oct/2024 11:13:08] "GET /user/1 HTTP/1.1" 200 -
+2024-10-28 11:13:10,256 - INFO - Handling add_movie for user ID 1.
+2024-10-28 11:13:10,258 - INFO - 127.0.0.1 - - [28/Oct/2024 11:13:10] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-28 11:13:13,877 - INFO - 127.0.0.1 - - [28/Oct/2024 11:13:13] "GET /movie_suggestions?query=ste HTTP/1.1" 200 -
+2024-10-28 11:13:30,612 - INFO - 127.0.0.1 - - [28/Oct/2024 11:13:30] "GET /movie_suggestions?query=ste HTTP/1.1" 200 -
+2024-10-28 11:13:53,481 - INFO - 127.0.0.1 - - [28/Oct/2024 11:13:53] "GET /movie_details?imdbID=tt1545627 HTTP/1.1" 200 -
+2024-10-28 11:13:58,147 - INFO - Handling add_movie for user ID 1.
+2024-10-28 11:13:58,170 - INFO - Movie 'Dovidjenja, kako ste?' added successfully for user ID 1.
+2024-10-28 11:13:58,170 - INFO - 127.0.0.1 - - [28/Oct/2024 11:13:58] "[32mPOST /users/1/add_movie HTTP/1.1[0m" 302 -
+2024-10-28 11:13:58,177 - INFO - Fetching movies for user ID 1.
+2024-10-28 11:13:58,179 - INFO - Fetching movies for user with ID 1.
+2024-10-28 11:13:58,180 - INFO - Found user: Kummey with 4 movies.
+2024-10-28 11:13:58,180 - INFO - Found 4 movies for user ID 1.
+2024-10-28 11:13:58,184 - INFO - 127.0.0.1 - - [28/Oct/2024 11:13:58] "GET /user/1 HTTP/1.1" 200 -
+2024-10-28 11:13:58,738 - INFO - 127.0.0.1 - - [28/Oct/2024 11:13:58] "GET /movie_details?imdbID=tt13650954 HTTP/1.1" 200 -
+2024-10-28 11:13:58,755 - INFO - 127.0.0.1 - - [28/Oct/2024 11:13:58] "GET /movie_details?imdbID=tt13650954 HTTP/1.1" 200 -
+2024-10-28 11:14:14,156 - INFO - 127.0.0.1 - - [28/Oct/2024 11:14:14] "GET /movie_details?imdbID=tt5540164 HTTP/1.1" 200 -
+2024-10-28 11:15:54,517 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-28 11:15:54,517 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-28 11:15:59,302 - INFO - Fetching movies for user ID 1.
+2024-10-28 11:15:59,317 - INFO - Fetching movies for user with ID 1.
+2024-10-28 11:15:59,319 - INFO - Found user: Kummey with 4 movies.
+2024-10-28 11:15:59,319 - INFO - Found 4 movies for user ID 1.
+2024-10-28 11:15:59,324 - INFO - 127.0.0.1 - - [28/Oct/2024 11:15:59] "GET /user/1 HTTP/1.1" 200 -
+2024-10-28 11:16:01,566 - INFO - Handling add_movie for user ID 1.
+2024-10-28 11:16:01,571 - INFO - 127.0.0.1 - - [28/Oct/2024 11:16:01] "GET /users/1/add_movie HTTP/1.1" 200 -
+2024-10-28 11:16:03,932 - INFO - 127.0.0.1 - - [28/Oct/2024 11:16:03] "GET /movie_suggestions?query=Blogs HTTP/1.1" 200 -
+2024-10-28 11:16:04,797 - INFO - 127.0.0.1 - - [28/Oct/2024 11:16:04] "GET /movie_details?imdbID=tt1851730 HTTP/1.1" 200 -
+2024-10-28 11:16:23,474 - INFO - 127.0.0.1 - - [28/Oct/2024 11:16:23] "GET /movie_suggestions?query=Har HTTP/1.1" 200 -
+2024-10-28 11:16:23,952 - INFO - 127.0.0.1 - - [28/Oct/2024 11:16:23] "GET /movie_suggestions?query=Harr HTTP/1.1" 200 -
+2024-10-28 11:16:24,585 - INFO - 127.0.0.1 - - [28/Oct/2024 11:16:24] "GET /movie_suggestions?query=Harry HTTP/1.1" 200 -
+2024-10-28 11:16:26,498 - INFO - 127.0.0.1 - - [28/Oct/2024 11:16:26] "GET /movie_details?imdbID=tt0330373 HTTP/1.1" 200 -
